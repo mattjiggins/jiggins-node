@@ -9,7 +9,6 @@ var moment = require('moment');
 /* GET home page. */
 router.get('/', function(req, res, next) {
 	function grabWelcome(){
-		console.log("grabWelcome");
 	    var deferred = Q.defer();		
 		
 		fs.readFile(__dirname+'/../content/welcome.md', 'utf8', function(err, data) {
@@ -19,7 +18,6 @@ router.get('/', function(req, res, next) {
 		return deferred.promise;
 	}
 	function grabProjects(){
-		console.log("grabProjects");
 	    var deferred = Q.defer();
 		fs.readFile(__dirname+'/../content/home.json', 'utf8', function(err, data) {
 		  if (err) throw err;
@@ -29,7 +27,6 @@ router.get('/', function(req, res, next) {
 	}
 	
 	function grabTwitter() {
-		console.log("grabTwitter");
 	    var deferred = Q.defer();
 		var requestURL = "http://"+req.headers.host+'/api/1/twitter';
 	
@@ -42,7 +39,6 @@ router.get('/', function(req, res, next) {
 	}
 	
 	function grabPhotos() {
-		console.log("grabPhotos");
 	    var deferred = Q.defer();
 		var requestURL = "http://"+req.headers.host+'/api/1/500px';
 	
