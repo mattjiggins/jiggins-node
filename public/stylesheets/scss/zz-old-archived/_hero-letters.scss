@@ -1,0 +1,96 @@
+#hero {
+  $small: new-breakpoint(max-width 520px);
+  $medium: new-breakpoint(min-width 521px);
+  $larger: new-breakpoint(min-width 950px);
+  
+  @include outer-container();
+  
+  margin-bottom: 20px;
+  padding-top: 10px;
+
+  @include media($medium) {
+     @include outer-container(70%);
+     margin-bottom: 80px;
+     padding-top: 100px;
+   }
+  
+  @include media($larger) {
+     @include outer-container();
+     margin-bottom: 100px;
+     padding-top: 200px;
+   }
+  
+
+
+  .letter {
+//     border: 1px solid red;
+  }
+  .letter-group {
+//     border: 1px solid green;
+    @include span-columns(12);
+    margin-bottom: 50px;
+    
+    @include media($larger) {
+       @include span-columns(6);
+       margin-right: 10px;
+     }
+  }
+  
+  .h {
+    @include span-columns(6);
+    padding: 0px 10px;
+    h2 {
+      font-size: 3em;
+      margin: 0px;
+    }
+    p {
+      font-size: .8em;
+      text-align: justify;
+      margin-top: 0px;
+      margin-bottom: 5px;
+      @include media($medium) {
+        font-size: 1em;
+       }
+    }
+  }
+  
+  .e {
+    @include span-columns(6);    
+  }
+  .l {
+    @include span-columns(3);
+    text-align: center;
+    padding: 10px;
+    .content {
+      background: #f1edea;
+//       border: 1px solid #cdcdcd;
+      height: 100%;
+      padding-top: 40px;
+    }
+    a {
+      color: $text;
+      font-weight: 300;
+      font-size: 1.5em;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  .o {
+    @include span-columns(6);
+    position: relative;
+    .period {
+      position: absolute;
+      background: $text;
+      width: 20px; height: 20px;
+      border-radius: 50%;
+      content: " ";
+      bottom: 0;
+      right: 0;
+      z-index: 2;
+      @include media(  $larger) {
+        right: -35px;
+       }
+    }
+  }
+}

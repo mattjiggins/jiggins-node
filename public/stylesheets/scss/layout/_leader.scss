@@ -1,0 +1,113 @@
+#leader {
+  $medium: new-breakpoint(min-width 521px);
+  $large: new-breakpoint(min-width 900px);
+  $largest: new-breakpoint(min-width 1400px);
+  
+  @include outer-container(100%);
+
+  margin-bottom: 20px;
+  padding-top: 0;
+  position: relative;
+
+  @include media($medium) {
+     @include outer-container(70%);
+     margin-bottom: 80px;
+   }
+   
+   @include media($large) {
+      @include outer-container(60%);
+      margin-bottom: 100px;
+    }
+  
+  @include media($largest) {
+     @include outer-container(45%);
+     margin-bottom: 100px;
+   }
+   
+   svg {
+     position: absolute;
+     margin-left: -20px;
+     margin-right: -20px;
+     z-index: -1;
+     height: 100%;
+   }
+   
+   .introduction {
+     position: relative;
+     padding: 0 20px 30px 20px;
+     h2 {
+       color: $white;
+       font-size: 4em;
+       margin-left: -4px;
+       margin-bottom: 20px;
+       border-bottom: 1px solid $white;
+       padding-top: 40px;
+        @include media($medium) {
+          padding-top: 100px;
+        }
+        @include media($large) {
+          padding-top: 250px;
+        }
+        @include media($largest) {
+          padding-top: 300px;
+        }        
+     }
+     h3 {
+       margin-top: 20px;
+     }
+
+     
+   }
+
+   .content {
+     background: $white;
+     margin: 0 -20px;
+     padding: 20px;
+     border-bottom: 1px solid $accentColor;
+   }
+
+   .content-internal {
+     background: $white;
+     margin: 0;
+     padding: 20px;
+     border-bottom: 1px solid $accentColor;
+   }
+      
+   .contact {
+     background: $accentColor;
+     margin: 0;
+     padding: 5px 0 0 0;
+     text-align: center;
+     p {
+       margin: 0;
+       padding: 0;
+     }
+     a {
+       color: $primaryColor;
+       padding: 6px 10px 0 10px;
+       font-size: 1.3em;
+       
+       &:hover {
+         color: $text;
+       }
+       @include media($large) {
+         font-size: 1em;
+         padding: 6px 15px 0 15px;
+        }
+     }
+   }
+   
+   .photo-of-matt {
+     position: absolute;
+     top: 10px; right: 10px;
+     max-width: 100px;
+     @include media($medium) {
+       max-width: 120px;
+     }
+     @include media($large) {
+       top: 80px; right: 25px;
+       max-width: 180px;
+     }
+   }
+   
+}

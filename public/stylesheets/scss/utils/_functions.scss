@@ -1,0 +1,6 @@
+// Functions, mixins etc used throughout the site.
+@mixin small-font($size) {
+  font-size: golden-ratio($size, -1);
+  font-weight: 400;
+  line-height: 1;
+}

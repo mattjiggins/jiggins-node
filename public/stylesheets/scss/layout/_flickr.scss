@@ -1,0 +1,30 @@
+#flickr {
+  $medium: new-breakpoint(min-width 767px);
+  $large: new-breakpoint(min-width 1400px);
+  margin-top: 20px;
+
+  padding: 0px;
+  .flickr-stream {
+    .flickr-photo {
+      margin:0px;
+      padding:0px;
+      float: left;
+      width:25%;
+      @include media($medium) {
+        width:20%;
+      }
+      @include media($large) {
+        width:10%;
+      }
+      &:hover {
+        -webkit-filter: sepia(1); 
+      }
+    }
+  }
+  a > img{
+      border: 0;
+  }
+}
+
+
+

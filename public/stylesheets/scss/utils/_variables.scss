@@ -1,0 +1,74 @@
+// FONTS
+
+$font-header: "Geogrotesque W01", "Helvetica Neue", "Helvetica", Arial, Sans-Serif;
+$font-body: 'FF Unit Offc W01', "DIN Next W01", "Helvetica Neue", "Helvetica", Arial, Sans-Serif;
+
+
+
+
+// COLOURS
+$darkPrimaryColor:   #D32F2F;
+$primaryColor:       #D32F2F;
+$lightPrimaryColor:  #FFCDD2;
+$textPrimaryColor:   #FFFFFF;
+$accentColor:        #FFC107;
+$primaryTextColor:   #212121;
+$secondaryTextColor: #727272;
+$dividerColor:       #B6B6B6;
+
+$white: #fff;
+$black: #000;
+$text-black: #444;
+$text-white: #fff;
+$lightgrey: #f1f1f1;
+$greyblue: #72939D;
+$teal: #4E9CB5;
+$darkred: #6B0103;
+$yellow: #FFC107;
+$link-hover: #72939D;
+$text: #2B312F;
+
+$blue: #477DCA;
+$dark-gray: #333;
+$medium-gray: #999;
+$light-gray: #DDD;
+
+// BITTERS
+$base-font-family: $font-body;
+$header-font-family: $font-header;
+
+// Font Sizes
+$base-font-size: 19px;
+$h1-font-size: $base-font-size * 2.25;
+$h2-font-size: $base-font-size * 2;
+$h3-font-size: $base-font-size * 1.75;
+$h4-font-size: $base-font-size * 1.5;
+$h5-font-size: $base-font-size * 1.25;
+$h6-font-size: $base-font-size;
+
+// Line height
+$base-line-height: 1.5;
+$header-line-height: 1.25;
+
+// Other Sizes
+$base-border-radius: 3px;
+$base-spacing: $base-line-height * 1em;
+$base-z-index: 0;
+
+// Background Color
+$base-background-color: white;
+
+// Font Colors
+$base-font-color: $text;
+$base-accent-color: $blue;
+
+// Link Colors
+// $base-link-color: $base-accent-color;
+$base-link-color: $base-font-color;
+$hover-link-color: darken($base-accent-color, 15);
+$base-button-color: $base-link-color;
+$hover-button-color: $hover-link-color;
+
+// Border color
+$base-border-color: $light-gray;
+$base-border: 1px solid $base-border-color;

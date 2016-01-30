@@ -1,0 +1,57 @@
+	{
+	"showcase": [
+		{
+			"title": "University of Toronto",
+			"intro": "Continuing Professional Development, Faculty of Medicine has been my main client for the past 8 years. I have helped them design, develop, deploy and maintain over 90 WordPress websites.Visit Website",
+			"project": "Redesign existing website to more prominantly feature upcomming events and integrate previously external blog.",
+			"role": "From design to deployment and maintenance.",
+			"tech": "Wordpress, SASS, NodeJS API, BackboneJS Frontend"
+		}
+	],
+	"projects": [
+		{
+			"title":"CPD Event Search",
+			"imgurl":"/images/Development--CPD-Events-Search-API.png",
+			"imgalt":"Screenshot of CPD Events API",
+			"description":"Part of the redesign of the [CPD Website](http://www.cpd.utoronto.ca) identified \"Event Search\" as a core-functionality. A simple read-only API was developed using NodeJS. The data is stored in MySQL (AWS RDS) as part of their existing Event Management application. Initial API written using PHP SlimFramework with AWS Elasticache, but moved to NodeJS to improve performance.<br>**Langs:** BackboneJS, NodeJS, PHP  Slimframework.<br>**Role:** Idea to Deployment",
+			"linkurl":"http://eventsapi2.cpdtoronto.ca/api/2/events",
+			"linktext":"Node (JSON)"
+			},{
+			"title":"Queens University",
+			"imgurl":"/images/Website--Queens.jpg",
+			"imgalt":"Screenshot of United Steelworkers Queens University membership drive.",
+			"description":"[United Steelworkers](http://usw.ca) is another long standing client of mine.<br>I primarily develop campaign or action websites for them. They are currently running a membership drive at Queens University in Canada.<br>**Langs:** HTML/SASS, Wordpress. **Role:** Idea to Deployment. **Time to Live:** 3 Weeks",
+			"linkurl":"http://www.queensrgcvoice.ca/",
+			"linktext":"Visit Site"
+		},{
+			"title":"Olivia Chow",
+			"imgurl":"/images/Website--Olivia-Chow.jpg",
+			"imgalt":"Screenshot of archived site for Olivia Chow.",
+			"description":"Friend and former Member of Parliament was looking to transition from her mayoral campaign website to a temporary personal page.<br>Updates weren't a priority so we focus on twitter and Instagram media feeds to keep site fresh.<br>**Langs:** HTML/SASS, PHP, Backbone.<br>**Role:** Idea to Deployment. **Time to Live:** 1 Week",
+			"linkurl":"http://chow.jiggins.ca",
+			"linktext":"Visit Archived Site"
+		},{
+			"title":"CPD Event Theme",
+			"imgurl":"/images/CPD-Event-One-FA-Cropped.jpg",
+			"imgalt":"Screenshot of Foot and Ankle Event Website",
+			"description":"CPD accredits and manages medical education events. They currently use WPEngine to host over 90 websites, many use the custom developed theme.<br>I developed an extremely flexible theme, meant to adapt to the phases of an event.<br>**Langs:** WordPress (PHP), SASS, Bootstrap. **Role:** Idea to Deployment.",
+			"linkurl":"http://www.cpd.utoronto.ca/generalsurgery",
+			"linktext":"Example Site"
+		},{
+			"title":"USW Campaign Site",
+			"imgurl":"/images/USW-EveryonesChance.jpg",
+			"imgalt":"Screenshot of everyoneschance.ca",
+			"description":"USW launched a publicity campaign to draw attention to the abuses of the Temporary Foreign Worker provisions in Canada.<br>**Langs:** WordPress (PHP), SASS, Bootstrap.<br>**Role:** All, including hosting.",
+			"linkurl":"http://www.everyoneschance.ca",
+			"linktext":"Visit Site"
+		},{
+			"title":"Paediatric Emergency Medicine",
+			"imgurl":"/images/Website--PEM2013.png",
+			"imgalt":"Screenshot of Paediatric Emergency Medicine Website",
+			"description":"The first of a series of onsite mobile-first websites.<br>The goal of the site is to provide timely relevant information to attendees. Including: Abstracts, handouts, meeting details.<br>**Langs:** Kirby CMS (PHP), SASS, Markdown, Bootstrap. **Role:** Everything.<br><small>Screenshots made at [ami.responsivedesign.is](http://ami.responsivedesign.is)</small>",
+			"linkurl":"http://pem2013.jiggins.ca",
+			"linktext":"Visit Archived Site"
+		}
+	]
+
+}

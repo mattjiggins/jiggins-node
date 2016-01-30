@@ -1,0 +1,11 @@
+Matthew Jiggins is an IT professional with 20 years of experience in helping clients achieve their goals. The diverse range of his work includes the development of marketing websites for medical conferences and the management of a million dollar IT campaign budget for a national political party. Clients trust his experience, knowledge, and most importantly his honesty.
+
+Matt began his work in the front lines of tech support during his studies at the University of Toronto. Throughout that period he also worked with Olivia Chow in municipal politics. There, he focused on database and mailing management. After his graduation, he moved to Ottawa and continued his work in politics and IT with Alex Munter at City Hall.
+
+In the early 2000s, Matt joined the Jack Layton NDP Leadership team. In that role, he managed the campaign’s technology and database systems. He carried on his support for Jack Layton and the Federal NDP as their IT Director, responsible for daily operations and the large campaign IT budget. At the end of this period, he coordinated the Ontario NDP's transition to a permanent headquarters.
+
+Since his departure from the world of party politics, Matt has become engaged with labour organizations and post-secondary institutions. For the past 7 years he has designed, developed, and deployed a wide variety of web products. His primary client is <a href="http://www.cpd.utoronto.ca" target="_blank">Continuing Professional Development</a> in the Faculty of Medicine at the University of Toronto. His work has helped this organization break new barriers with its online presence. As part of his engagement in the NGO sector, he supports the <a href="http://www.usw.ca" target="_blank">United Steelworkers of Canada</a> with their various online campaigns.
+
+These diverse roles require Matt to continuously learn and expand his knowledge base. His clients have come to rely on his ability to understand how new solutions can help solve their current challenges.
+
+<a href="mailto:web@jiggins.ca">Contact Matt</a>

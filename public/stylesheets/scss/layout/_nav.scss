@@ -1,0 +1,16 @@
+nav.home {
+  position: absolute;
+  top: 8px; left: 10px;
+  z-index: 9999;
+  a {
+    border: 1px solid $white;
+    color: $white;
+    font-size: .8em;
+    padding: 5px 10px 3px 10px;
+    text-transform: uppercase;
+    &:hover {
+      color: $primaryColor;
+    }
+  }
+}
+

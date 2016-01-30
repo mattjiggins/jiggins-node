@@ -1,0 +1,22 @@
+#showcase-smaller {
+  
+  $bp-showcase--lg: new-breakpoint(min-width 900px 12);
+
+  background: white;
+
+  .card {
+    border: none;
+    border-bottom: 10px solid $accentColor;
+    box-shadow: none;
+    padding-bottom: 1em; 
+  }
+
+  @include outer-container;
+  padding: 15px 20px;
+
+  @include media($bp-showcase--lg) {
+    padding: 30px 10px 50px 10px;
+  }
+  
+
+}

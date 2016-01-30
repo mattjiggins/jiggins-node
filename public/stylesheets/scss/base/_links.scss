@@ -1,0 +1,28 @@
+a {
+  @include transition(color 0.1s linear);
+  color: $base-link-color;
+  text-decoration: none;
+  border-bottom: 1px dotted tint( $primaryColor, 50%);
+
+  &:hover {
+    background: $accentColor;
+    color: $hover-link-color;
+    border-bottom: 1px dotted $primaryColor;
+  }
+
+  &:active, &:focus {
+    background: $accentColor;
+    color: $hover-link-color;
+    outline: none;
+  }
+}
+
+.contact a {
+  border-bottom: none;
+  
+  &:focus {
+    background: $accentColor;
+    color: $hover-link-color;
+    outline: 1px solid red;
+  }
+}

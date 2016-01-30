@@ -1,0 +1,21 @@
+#twitter {
+  $shift: new-breakpoint(min-width 1200px);
+  
+  @include outer-container(1600px);
+  padding: 0;
+  
+  @include media($shift) {
+    padding: 0 50px;
+  }
+  
+  .card {
+    padding-bottom: 0;
+  }
+  .tweet {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    margin: 0 18px;
+  }
+}

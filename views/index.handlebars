@@ -1,0 +1,114 @@
+{{#each showcase}}
+<section id="showcase-cpd">
+
+	<h2 class="section-title">Recent Work Showcase</h2>
+	
+	<div class="container">
+		<div class="browsers">
+		  <div class="browser">
+		    <div class="browser-top-bar">
+		      <div class="browser-circle"></div>
+		      <div class="browser-circle"></div>
+		      <div class="browser-circle"></div>
+		    </div>
+		  <div class="browser-content"></div>
+		  </div>
+		  <div class="browser">
+		    <div class="browser-top-bar">
+		      <div class="browser-circle"></div>
+		      <div class="browser-circle"></div>
+		      <div class="browser-circle"></div>
+		    </div>
+		    <div class="browser-content">
+		    </div>
+		  </div>
+		  <div class = "browser">
+		    <div class="browser-top-bar">
+		      <div class="browser-circle"></div>
+		      <div class="browser-circle"></div>
+		      <div class="browser-circle"></div>
+		    </div>
+		    <div class="browser-content"></div>
+		  </div>
+		</div>
+		<div class="cover"></div>		
+	</div>
+	
+	<div class="details">
+		<aside>
+			<h4>{{title}}</h4>
+			{{{marked intro}}}
+		</aside>
+		<article>
+			<h4>Project</h4>
+			{{{marked project}}}
+
+			<h4>Role</h4>
+			{{{marked role}}}
+
+			<h4>Technologies</h4>
+			{{{marked tech}}}
+
+			<p>Watch here for the "how I did it" post.</p>
+		</article>
+	</div>
+</section>
+{{/each}}
+
+{{#if projects}}
+<section id="showcase-smaller">
+	<h2 class="section-title">Other Works</h2>
+
+	<div class="cards">
+		{{#each projects}}
+			<!-- START CPD API CARD -->
+			<div class="card">
+			
+				<div class="card-image">
+					<a href="{{link}}" target="_blank"><img src="{{imgurl}}" alt="{{imgalt}}"></a>
+				</div>
+				<div class="card-header">
+					{{title}}
+				</div>
+				<div class="card-copy">
+					{{{marked description}}}
+				
+					<p><a href="{{linkurl}}" target="_blank" class="button">{{linktext}}</a> </p>
+				</div>
+			</div>
+			<!-- END CPD API CARD -->
+		{{/each}}
+	</div>
+</section>
+{{/if}}
+
+{{#if twitter}}
+	<section id="twitter">
+		<h2 class="section-title">On <a href="https://twitter.com/mattjiggins" target="_blank">twitter</a></h2>
+		<div class="cards">
+			{{#each twitter}}
+				<div class="card tweet">
+					<div class="card-copy">
+						<p>{{{formatTweet text retweeted_status}}} {{#if in_reply_to_status_id}}<small> &mdash; <a href="https://twitter.com/{{in_reply_to_screen_name}}/status/{{in_reply_to_status_id_str}}" target="_blank">conversation</a></small>{{/if}} &mdash; <small>{{dateFormat created_at}}</small> <a href="http://twitter.com/{{user.screen_name}}/status/{{id_str}}" class="action"><i class="fa fa-retweet"></i></a> </p>
+					</div>
+				</div>
+			{{/each}}
+		</div>
+	</section>
+{{/if}}
+
+{{#if photos}}
+	<section id="flickr">
+	
+		<div class="content">
+			<h2 class="section-title">Photography: <a href="http://photo.jiggins.ca">View Portfolio</a></h2>
+			<div class="flickr-stream">
+				{{#each photos}}
+					<a href="" class="thumbnail col-xs-1" target="_blank">
+						<img src="{{image_url}}" alt="" class="img-responsive" />
+					</a>
+				{{/each}}
+			</div>
+		</div>
+	</section>
+{{/if}}

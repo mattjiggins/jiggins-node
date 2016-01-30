@@ -1,0 +1,51 @@
+// From icomoon
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('../../fonts/icomoon.eot?v7h1qi');
+	src:url('../../fonts/icomoon.eot?#iefixv7h1qi') format('embedded-opentype'),
+		url('../../fonts/icomoon.woff?v7h1qi') format('woff'),
+		url('../..fonts/icomoon.ttf?v7h1qi') format('truetype'),
+		url('../../fonts/icomoon.svg?v7h1qi#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-instagram:before {
+	content: "\e600";
+}
+
+.icon-phone:before {
+	content: "\e601";
+}
+
+.icon-twitter:before {
+	content: "\e602";
+}
+
+.icon-envelope-o:before {
+	content: "\e603";
+}
+
+.icon-github:before {
+	content: "\e604";
+}
+
+.icon-flickr:before {
+	content: "\e605";
+}
+

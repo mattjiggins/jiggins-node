@@ -1,0 +1,49 @@
+#showcase-cpd {
+  @import "showcase1-browsers"; 
+  
+  $bp-showcase--lg: new-breakpoint(min-width 900px 12);
+
+  border-top: 10px solid $primaryColor;
+  border-right: 1px solid $primaryColor;
+  border-bottom: 1px solid $primaryColor;
+  border-left: 1px solid $primaryColor;
+  padding: 0 20px 15px 20px;
+  margin-bottom: 40px;
+  position: relative;
+
+  @include outer-container;
+  @include media($bp-showcase--lg) {
+    padding: 0px 10px 50px 10px;
+  }
+
+  
+  h2 {
+    @include media($bp-showcase--lg) {
+      margin-bottom: 50px
+    }
+  }
+  
+  // Details
+  
+  .details {
+    background: white;
+    padding: 0px 10px;
+    @include media($bp-showcase--lg) {
+      padding: 0px 80px;
+    }
+    
+    aside { 
+      @include span-columns(12);
+      @include media($bp-showcase--lg) {
+        @include span-columns(5);
+      }
+    }
+    article { 
+      @include span-columns(12);
+      @include media($bp-showcase--lg) {
+        @include span-columns(7);
+      }
+    }
+  }
+  
+}
