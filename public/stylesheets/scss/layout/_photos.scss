@@ -1,0 +1,26 @@
+ul.photos {
+	list-style: none;
+	margin:0;
+	padding:0;
+    @include align-items(stretch);
+    @include display(flex);
+    @include flex-direction(row);
+    @include flex-wrap(wrap);
+    @include justify-content(space-around);
+}
+ul.photos li {
+    $medium: new-breakpoint(min-width 767px);
+    $large: new-breakpoint(min-width 1400px);
+	
+	margin:0;
+	padding:0;
+	
+	width: 25%;
+	
+    @include media($medium) {
+      width:10%;
+    }
+    @include media($large) {
+      width:10%;
+    }
+}

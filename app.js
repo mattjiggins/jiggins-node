@@ -9,7 +9,6 @@ var marked = require('marked');
 
 var exphbs  = require('express-handlebars');
 
-
 //SETUP ROUTES
 var routes = require('./routes/index');
 var about = require('./routes/about');

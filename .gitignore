@@ -2,3 +2,7 @@ node_modules/
 *.codekit
 
 .env
+
+*.scssc
+
+*.scssc

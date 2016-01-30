@@ -70,8 +70,7 @@ router.get('/', function(req, res, next) {
 			
 			var twitter = JSON.parse(data[2]);
 			
-			var thePhotos = JSON.parse(data[3]),
-				photos = thePhotos.photos;
+			var photos = JSON.parse(data[3]);
 			
 			res.render('index', {
 				title: 'Hello',
