@@ -5,10 +5,10 @@ var fs = require('fs');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-	var about = marked( fs.readFileSync(__dirname+'/../content/about.md', 'utf8') );
+	var about = marked( fs.readFileSync(__dirname+'/../content/about-classic.md', 'utf8') );
 
 	res.render('index', { 
-		title: 'About',
+		title: 'Matt Jiggins',
 		content: about,
 		layout: 'inside'
 	});

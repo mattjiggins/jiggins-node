@@ -4,4 +4,4 @@ My name is **[Matt Jiggins](mailto:web@jiggins.ca)**. I'm a Canadian photographe
 
 This is my new website, which is still very much a work in progress.
 
-**[Read more about me.](/about)** or visit my [old photography site](http://original.jiggins.ca/).
+**[Read more about me.](/about)** or visit my [photography site](http://photo.jiggins.ca/).

@@ -12,6 +12,7 @@ var exphbs  = require('express-handlebars');
 //SETUP ROUTES
 var routes = require('./routes/index');
 var about = require('./routes/about');
+var classic = require('./routes/classic');
 var twitter = require('./routes/api-1-twitter');
 var fivehundred = require('./routes/api-1-500px');
 
@@ -47,6 +48,7 @@ app.use('/api/1/500px', fivehundred);
 // USE ROUTES
 app.use('/', routes);
 app.use('/about', about);
+app.use('/classic-biography', classic);
 
 
 

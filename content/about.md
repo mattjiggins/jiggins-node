@@ -10,7 +10,7 @@ In 2007, after a decade in *"classic" IT management* with a <a href="http://ndp.
 
 ### Where I want to be. 
 
-For the past 7 years I have been creating, designing, developing, deploying, and maintaining websites solo, with occasional designer-developer assistance. As technologies advance it has become more difficult remain the *expert generalist*. My curious and adventerous mind makes me constantly engage with personal development projects, conferences, and self-directed learning. I now want to leave my solo-freelance career to work with other developers, designers, intelligent and creative people.
+For the past 8 years I have been creating, designing, developing, deploying, and maintaining websites solo, with occasional designer-developer assistance. As technologies advance it has become more difficult remain the *expert generalist*. My curious and adventerous mind makes me constantly engage with personal development projects, conferences, and self-directed learning. I now want to leave my solo-freelance career to work with other developers, designers, intelligent and creative people.
 
 ### What I'm really looking for.
 
@@ -21,4 +21,5 @@ You could be a creative agency with incredible clients; a startup with a great i
 You need a developer, designer, feature owner who understands that this stuff has to ship, and that it must be used and understood by real people.
 
 ### Me in one sentence:
+
 I am the geek with a creative mind, and a creative mind with a developer's sense of order. 
