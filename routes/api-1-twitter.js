@@ -19,8 +19,6 @@ router.get('/', function(req, res, next) {
 		if (err) throw err;
 
 		if(! data){
-			console.log("No tweets, getting sum.");
-			
 			// There is no data, do this function which will check for perm cache etc
 			var params = {screen_name: 'mattjiggins'};
 			client.get('statuses/user_timeline', params, function(error, tweets, response){
@@ -33,7 +31,6 @@ router.get('/', function(req, res, next) {
 			});
 			
 		} else {
-			console.log("Tweets, sending.");
 			// Use the data we have.
 			res.send( data );
 		};

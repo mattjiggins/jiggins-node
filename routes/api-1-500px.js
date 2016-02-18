@@ -18,8 +18,7 @@ router.get('/', function(req, res, next) {
 		if (err) throw err;
 
 		if(! data){
-			console.log("No 500, getting sum.");
-			
+			// No data need to grab
 			api500.photos.getByUsername('mattjiggins',{sort:'taken_at',image_size:'200,440,1600'})
 			.catch(console.error)
 			.then(
@@ -47,7 +46,6 @@ router.get('/', function(req, res, next) {
 			        res.send(photos);
 				});
 		} else {
-			console.log("500, sending.");
 			// Use the data we have.
 			res.send( data );
 		};
