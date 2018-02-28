@@ -11,48 +11,58 @@ body {
 @font-face {
   font-family: "DIN Next W01_n4";
   src: url("../../fonts/geodin/3e0b2cd7-9657-438b-b4af-e04122e8f1f7.eot?#iefix") format("eot"); }
+
 @font-face {
   font-family: "DIN Next W01";
   src: url("../../fonts/geodin/3e0b2cd7-9657-438b-b4af-e04122e8f1f7.eot?#iefix");
   src: url("../../fonts/geodin/3e0b2cd7-9657-438b-b4af-e04122e8f1f7.eot?#iefix") format("eot"), url("../../fonts/geodin/de1216be-00c2-43c0-9c45-3e7f925eb519.woff2") format("woff2"), url("../../fonts/geodin/bc176270-17fa-4c78-a343-9fe52824e501.woff") format("woff"), url("../../fonts/geodin/3516f91d-ac48-42cd-acfe-1be691152cc4.ttf") format("truetype"), url("../../fonts/geodin/d1b1e866-a411-42ba-8f75-72bf28e23694.svg#d1b1e866-a411-42ba-8f75-72bf28e23694") format("svg");
   font-weight: 400;
   font-style: normal; }
+
 @font-face {
   font-family: "DIN Next W01_i4";
   src: url("../../fonts/geodin/3ab2ca1d-35c8-4471-9c57-04cb66b9cffa.eot?#iefix") format("eot"); }
+
 @font-face {
   font-family: "DIN Next W01";
   src: url("../../fonts/geodin/3ab2ca1d-35c8-4471-9c57-04cb66b9cffa.eot?#iefix");
   src: url("../../fonts/geodin/3ab2ca1d-35c8-4471-9c57-04cb66b9cffa.eot?#iefix") format("eot"), url("../../fonts/geodin/26f280d7-8bd0-4192-90f1-3c3cb4cde341.woff2") format("woff2"), url("../../fonts/geodin/e1c997f3-fb27-4289-abc6-5ef059e51723.woff") format("woff"), url("../../fonts/geodin/0b3b140c-bdbe-488f-8976-992b4104de0c.ttf") format("truetype"), url("../../fonts/geodin/1fdd14a5-aaa2-4662-a7ae-ab0d4c3adb3c.svg#1fdd14a5-aaa2-4662-a7ae-ab0d4c3adb3c") format("svg");
   font-weight: 400;
   font-style: italic; }
+
 @font-face {
   font-family: "DIN Next W01_n7";
   src: url("../../fonts/geodin/da088ecc-a53c-4831-a95b-6fd81b5b338a.eot?#iefix") format("eot"); }
+
 @font-face {
   font-family: "DIN Next W01";
   src: url("../../fonts/geodin/da088ecc-a53c-4831-a95b-6fd81b5b338a.eot?#iefix");
   src: url("../../fonts/geodin/da088ecc-a53c-4831-a95b-6fd81b5b338a.eot?#iefix") format("eot"), url("../../fonts/geodin/44e7b0fa-6c8d-43c2-b19e-f1e3ce9ea57c.woff2") format("woff2"), url("../../fonts/geodin/c5a7f89e-15b6-49a9-8259-5ea665e72191.woff") format("woff"), url("../../fonts/geodin/868c94b5-ca49-46b7-b62b-297f8d861125.ttf") format("truetype"), url("../../fonts/geodin/e3145f65-29b5-4f7f-8c6e-2dc135021b6a.svg#e3145f65-29b5-4f7f-8c6e-2dc135021b6a") format("svg");
   font-weight: 700;
   font-style: normal; }
+
 @font-face {
   font-family: "DIN Next W01_i7";
   src: url("../../fonts/geodin/4393bcd9-65c9-4c71-b688-9a0c17e40ebf.eot?#iefix") format("eot"); }
+
 @font-face {
   font-family: "DIN Next W01";
   src: url("../../fonts/geodin/4393bcd9-65c9-4c71-b688-9a0c17e40ebf.eot?#iefix");
   src: url("../../fonts/geodin/4393bcd9-65c9-4c71-b688-9a0c17e40ebf.eot?#iefix") format("eot"), url("../../fonts/geodin/f37f8098-b16e-405f-ab24-bd595a5d5762.woff2") format("woff2"), url("../../fonts/geodin/c5635d60-91fa-4e4b-8a51-41c97fc744c3.woff") format("woff"), url("../../fonts/geodin/de34232f-b870-49c0-a6c0-24c25db73bc2.ttf") format("truetype"), url("../../fonts/geodin/35916fb2-3ed3-4d39-bec8-74155a53b1f0.svg#35916fb2-3ed3-4d39-bec8-74155a53b1f0") format("svg");
   font-weight: 700;
   font-style: italic; }
+
 @font-face {
   font-family: "Geogrotesque W01_n5";
   src: url("../../fonts/geodin/77c5adea-c45f-4bd6-bc83-c171aa401eac.eot?#iefix") format("eot"); }
+
 @font-face {
   font-family: "Geogrotesque W01";
   src: url("../../fonts/geodin/77c5adea-c45f-4bd6-bc83-c171aa401eac.eot?#iefix");
   src: url("../../fonts/geodin/77c5adea-c45f-4bd6-bc83-c171aa401eac.eot?#iefix") format("eot"), url("../../fonts/geodin/38914808-31f7-4169-a962-60b41b189056.woff2") format("woff2"), url("../../fonts/geodin/ae7eda9b-5729-4029-8ea8-1f4b2feb6595.woff") format("woff"), url("../../fonts/geodin/f5e7d965-e646-4ea9-8b21-bf17e3e5de42.ttf") format("truetype"), url("../../fonts/geodin/ae5b8a9c-af85-4ddf-a0a6-602405583707.svg#ae5b8a9c-af85-4ddf-a0a6-602405583707") format("svg");
   font-weight: 500;
   font-style: normal; }
+
 body {
   -webkit-font-feature-settings: "kern", "liga", "frac", "pnum";
   -moz-font-feature-settings: "kern", "liga", "frac", "pnum";
@@ -61,10 +71,12 @@ body {
   -webkit-font-smoothing: antialiased;
   background-color: white;
   color: #2B312F;
-  font-family: "FF Unit Offc W01", "DIN Next W01", "Helvetica Neue", "Helvetica", Arial, Sans-Serif;
-  font-size: 19px;
-  font-weight: 400;
+  font: normal 18px "Roboto", "Helvetica Neue", "Helvetica", Arial, Sans-Serif;
+  font-weight: 300;
   line-height: 1.5; }
+
+strong {
+  font-weight: 400; }
 
 h1,
 h2,
@@ -72,50 +84,50 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Geogrotesque W01", "Helvetica Neue", "Helvetica", Arial, Sans-Serif;
-  font-weight: 500;
+  font-family: "Playfair Display", Serif;
+  font-weight: 400;
   color: #D32F2F;
   line-height: 1.25;
   margin: 0; }
 
 h1 {
-  font-size: 42.75px; }
+  font-size: 2.25em; }
   h1 small {
-    font-size: 26.4215080346px;
+    font-size: 1.390605686em;
     font-weight: 400;
     line-height: 1; }
 
 h2 {
-  font-size: 38px; }
+  font-size: 2em; }
   h2 small {
-    font-size: 23.4857849197px;
+    font-size: 1.2360939431em;
     font-weight: 400;
     line-height: 1; }
 
 h2.section-title {
   font-size: 1.3em;
-  font-weight: 500;
+  font-weight: 300;
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 20px; }
 
 .section-title-link {
   font-size: .8em;
-  font-weight: 500;
+  font-weight: 300;
   text-align: center;
   margin: -10px 0 10px 0; }
 
 h3 {
-  font-size: 33.25px; }
+  font-size: 1.75em; }
   h3 small {
-    font-size: 20.5500618047px;
+    font-size: 1.0815822002em;
     font-weight: 400;
     line-height: 1; }
 
 h4 {
-  font-size: 28.5px; }
+  font-size: 1.5em; }
   h4 small {
-    font-size: 17.6143386897px;
+    font-size: 0.9270704574em;
     font-weight: 400;
     line-height: 1; }
 
@@ -168,75 +180,60 @@ a {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 20px;
+  border-bottom: 1px solid red;
   padding-top: 0;
   position: relative; }
   #leader::after {
     clear: both;
     content: "";
     display: table; }
-  @media screen and (min-width: 521px) {
-    #leader {
-      max-width: 70%;
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: 80px; }
-      #leader::after {
-        clear: both;
-        content: "";
-        display: table; } }
-  @media screen and (min-width: 900px) {
-    #leader {
-      max-width: 60%;
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: 100px; }
-      #leader::after {
-        clear: both;
-        content: "";
-        display: table; } }
-  @media screen and (min-width: 1400px) {
-    #leader {
-      max-width: 45%;
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: 100px; }
-      #leader::after {
-        clear: both;
-        content: "";
-        display: table; } }
-  #leader svg {
-    position: absolute;
-    margin-left: -20px;
-    margin-right: -20px;
-    z-index: -1;
-    height: 100%; }
   #leader .introduction {
-    position: relative;
-    padding: 0 20px 30px 20px; }
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative; }
+    #leader .introduction::after {
+      clear: both;
+      content: "";
+      display: table; }
     #leader .introduction h2 {
-      color: #fff;
-      font-size: 4em;
-      margin-left: -4px;
-      margin-bottom: 20px;
       border-bottom: 1px solid #fff;
-      padding-top: 40px; }
+      color: #fff;
+      font-size: 3em;
+      position: absolute;
+      top: 1.5em;
+      left: .5em;
+      right: 0; }
       @media screen and (min-width: 521px) {
         #leader .introduction h2 {
-          padding-top: 100px; } }
-      @media screen and (min-width: 900px) {
-        #leader .introduction h2 {
-          padding-top: 250px; } }
-      @media screen and (min-width: 1400px) {
-        #leader .introduction h2 {
-          padding-top: 300px; } }
-    #leader .introduction h3 {
-      margin-top: 20px; }
+          font-size: 4em;
+          top: 2em;
+          left: 1em;
+          right: 0; } }
+    #leader .introduction svg {
+      height: 10em; }
+      @media screen and (min-width: 521px) {
+        #leader .introduction svg {
+          height: 15em; } }
+  #leader .photo-of-matt {
+    position: absolute;
+    top: 3em;
+    right: 2em;
+    height: 5em;
+    width: 5em; }
+    @media screen and (min-width: 521px) {
+      #leader .photo-of-matt {
+        top: 2em;
+        right: 2em;
+        height: 10em;
+        width: 10em; } }
   #leader .content {
-    background: #fff;
-    margin: 0 -20px;
-    padding: 20px;
+    margin-top: -.5em;
+    padding: 2em 1em 2em;
     border-bottom: 1px solid #FFC107; }
+    @media screen and (min-width: 521px) {
+      #leader .content {
+        padding: 3em 4em 4em; } }
   #leader .content-internal {
     background: #fff;
     margin: 0;
@@ -260,19 +257,6 @@ a {
         #leader .contact a {
           font-size: 1em;
           padding: 6px 15px 0 15px; } }
-  #leader .photo-of-matt {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    max-width: 100px; }
-    @media screen and (min-width: 521px) {
-      #leader .photo-of-matt {
-        max-width: 120px; } }
-    @media screen and (min-width: 900px) {
-      #leader .photo-of-matt {
-        top: 80px;
-        right: 25px;
-        max-width: 180px; } }
 
 nav.home {
   position: absolute;
@@ -365,10 +349,10 @@ nav.home {
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-  background-color: #f7f7f7;
+  background-color: #f7f6f6;
   border-radius: 3px;
   border: 1px solid #DDD;
-  box-shadow: 0 2px 4px #e6e6e6;
+  box-shadow: 0 2px 4px #e6e5e5;
   margin: 0 1em 1.5em 1em;
   padding-bottom: 5em;
   position: relative;
@@ -388,10 +372,10 @@ nav.home {
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
-    background-color: #f7f7f7;
+    background-color: #f7f6f6;
     border-bottom: 1px solid #DDD;
     border-radius: 3px 3px 0 0;
-    font-weight: bold;
+    font-weight: 400;
     line-height: 1.5em;
     padding: 0.5em 0.75em; }
   .card .card-copy {
@@ -436,9 +420,9 @@ nav.home {
     .card:hover .card-header {
       background-color: white; }
   .card:active {
-    background-color: #f7f7f7; }
+    background-color: #f7f6f6; }
     .card:active .card-header {
-      background-color: #f7f7f7; }
+      background-color: #f7f6f6; }
 
 /**
 *   VARS
@@ -669,6 +653,7 @@ nav.home {
   src: url("../../fonts/icomoon.eot?#iefixv7h1qi") format("embedded-opentype"), url("../../fonts/icomoon.woff?v7h1qi") format("woff"), url("../..fonts/icomoon.ttf?v7h1qi") format("truetype"), url("../../fonts/icomoon.svg?v7h1qi#icomoon") format("svg");
   font-weight: normal;
   font-style: normal; }
+
 [class^="icon-"], [class*=" icon-"] {
   font-family: 'icomoon';
   speak: none;
@@ -961,3 +946,5 @@ ul.photos li {
   @media screen and (min-width: 1400px) {
     ul.photos li {
       width: 10%; } }
+
+/*# sourceMappingURL=application.css.map */

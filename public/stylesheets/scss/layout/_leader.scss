@@ -5,65 +5,63 @@
   
   @include outer-container(100%);
 
-  margin-bottom: 20px;
+  border-bottom: 1px solid red;
+
   padding-top: 0;
   position: relative;
-
-  @include media($medium) {
-     @include outer-container(70%);
-     margin-bottom: 80px;
-   }
    
-   @include media($large) {
-      @include outer-container(60%);
-      margin-bottom: 100px;
-    }
   
-  @include media($largest) {
-     @include outer-container(45%);
-     margin-bottom: 100px;
-   }
-   
-   svg {
-     position: absolute;
-     margin-left: -20px;
-     margin-right: -20px;
-     z-index: -1;
-     height: 100%;
-   }
    
    .introduction {
+	 @include outer-container(800px);
      position: relative;
-     padding: 0 20px 30px 20px;
-     h2 {
-       color: $white;
-       font-size: 4em;
-       margin-left: -4px;
-       margin-bottom: 20px;
-       border-bottom: 1px solid $white;
-       padding-top: 40px;
-        @include media($medium) {
-          padding-top: 100px;
-        }
-        @include media($large) {
-          padding-top: 250px;
-        }
-        @include media($largest) {
-          padding-top: 300px;
-        }        
-     }
-     h3 {
-       margin-top: 20px;
-     }
+	 h2 {
+         border-bottom: 1px solid $white;
+		 color: $white;
+		 font-size: 3em;
+		 position: absolute;
+		 top: 1.5em;
+		 left: .5em;
+		 right: 0;
+		 @include media($medium) {
+			 font-size: 4em;
+			 top: 2em;
+			 left: 1em;
+			 right: 0;
+		 }
 
-     
+	 }
+	 svg {
+		 height : 10em;
+		 @include media($medium) {
+		 	height: 15em;
+		 }
+		 
+	 }
+   }
+   
+   .photo-of-matt {
+     position: absolute;
+	 top: 3em;
+	 right: 2em;
+	 height: 5em;
+	 width: 5em;
+	 @include media($medium) {
+		 top: 2em;
+		 right: 2em;
+		 height: 10em;
+		 width: 10em;
+	 }
    }
 
+
    .content {
-     background: $white;
-     margin: 0 -20px;
-     padding: 20px;
+	 margin-top: -.5em;
+     padding: 2em 1em 2em;
      border-bottom: 1px solid $accentColor;
+	 @include media($medium) {
+	     padding: 3em 4em 4em;
+	 }
    }
 
    .content-internal {
@@ -97,17 +95,6 @@
      }
    }
    
-   .photo-of-matt {
-     position: absolute;
-     top: 10px; right: 10px;
-     max-width: 100px;
-     @include media($medium) {
-       max-width: 120px;
-     }
-     @include media($large) {
-       top: 80px; right: 25px;
-       max-width: 180px;
-     }
-   }
+
    
 }

@@ -61,10 +61,13 @@ body {
   -webkit-font-smoothing: antialiased;
   background-color: $base-background-color;
   color: $base-font-color;
-  font-family: $base-font-family;
-  font-size: $base-font-size;
+  font: normal 18px $base-font-family;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+strong {
   font-weight: 400;
-  line-height: $base-line-height;
 }
 
 h1,
@@ -74,7 +77,7 @@ h4,
 h5,
 h6 {
   font-family: $header-font-family;
-  font-weight: 500;
+  font-weight: 400;
   color: $primaryColor;
   line-height: $header-line-height;
   margin: 0;
@@ -92,14 +95,14 @@ h2 {
 
 h2.section-title {
   font-size: 1.3em;
-  font-weight: 500;
+  font-weight: 300;
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 20px;
 }
 .section-title-link {
     font-size: .8em;
-    font-weight: 500;
+    font-weight: 300;
     text-align: center;
     //text-transform: uppercase;
     margin: -10px 0 10px 0;

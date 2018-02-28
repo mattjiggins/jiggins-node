@@ -1,9 +1,10 @@
 // FONTS
 
-$font-header: "Geogrotesque W01", "Helvetica Neue", "Helvetica", Arial, Sans-Serif;
-$font-body: 'FF Unit Offc W01', "DIN Next W01", "Helvetica Neue", "Helvetica", Arial, Sans-Serif;
+// $font-header: "Geogrotesque W01", "Helvetica Neue", "Helvetica", Arial, Sans-Serif;
+// $font-body: 'FF Unit Offc W01', "DIN Next W01", "Helvetica Neue", "Helvetica", Arial, Sans-Serif;
 
-
+$font-header: 'Playfair Display', Serif;
+$font-body: "Roboto", "Helvetica Neue", "Helvetica", Arial, Sans-Serif;
 
 
 // COLOURS
@@ -38,7 +39,7 @@ $base-font-family: $font-body;
 $header-font-family: $font-header;
 
 // Font Sizes
-$base-font-size: 19px;
+$base-font-size: 1em;
 $h1-font-size: $base-font-size * 2.25;
 $h2-font-size: $base-font-size * 2;
 $h3-font-size: $base-font-size * 1.75;

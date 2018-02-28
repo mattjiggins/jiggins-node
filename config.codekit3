@@ -1,0 +1,5684 @@
+{
+"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and\/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https:\/\/codekitapp.com\/",
+"buildSteps": [
+	{
+		"name": "Process All Remaining Files and Folders",
+		"stepType": 1,
+		"uuidString": "2D9BCCD4-F4E0-432C-825F-EAC53623817E"
+		}
+	],
+"creatorBuild": "25390",
+"files": {
+	"\/.env": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.env",
+		"oF": 0
+		},
+	"\/.gitignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.gitignore",
+		"oF": 0
+		},
+	"\/app.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/min\/app-min.js",
+		"oF": 1,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/app.yaml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/app.yaml",
+		"oF": 0
+		},
+	"\/bin\/www": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bin\/www",
+		"oF": 0
+		},
+	"\/content\/about-classic.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/content\/about-classic.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/content\/about.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/content\/about.html",
+		"oF": 0
+		},
+	"\/content\/about.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/content\/about.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/content\/cpd-details.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/content\/cpd-details.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/content\/home.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/content\/home-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/content\/welcome.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/content\/welcome.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/node_modules": {
+		"ft": 65536,
+		"oA": 2,
+		"oAP": "\/build\/node_modules",
+		"oF": 0
+		},
+	"\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/procfile": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/procfile",
+		"oF": 0
+		},
+	"\/public\/fonts\/geodin\/0b3b140c-bdbe-488f-8976-992b4104de0c.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/fonts\/geodin\/0b3b140c-bdbe-488f-8976-992b4104de0c.ttf",
+		"oF": 0
+		},
+	"\/public\/fonts\/geodin\/1fdd14a5-aaa2-4662-a7ae-ab0d4c3adb3c.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/public\/fonts\/geodin\/1fdd14a5-aaa2-4662-a7ae-ab0d4c3adb3c.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/public\/fonts\/geodin\/26f280d7-8bd0-4192-90f1-3c3cb4cde341.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/fonts\/geodin\/26f280d7-8bd0-4192-90f1-3c3cb4cde341.woff2",
+		"oF": 0
+		},
+	"\/public\/fonts\/geodin\/3516f91d-ac48-42cd-acfe-1be691152cc4.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/fonts\/geodin\/3516f91d-ac48-42cd-acfe-1be691152cc4.ttf",
+		"oF": 0
+		},
+	"\/public\/fonts\/geodin\/35916fb2-3ed3-4d39-bec8-74155a53b1f0.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/public\/fonts\/geodin\/35916fb2-3ed3-4d39-bec8-74155a53b1f0.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/public\/fonts\/geodin\/38914808-31f7-4169-a962-60b41b189056.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/fonts\/geodin\/38914808-31f7-4169-a962-60b41b189056.woff2",
+		"oF": 0
+		},
+	"\/public\/fonts\/geodin\/3ab2ca1d-35c8-4471-9c57-04cb66b9cffa.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/fonts\/geodin\/3ab2ca1d-35c8-4471-9c57-04cb66b9cffa.eot",
+		"oF": 0
+		},
+	"\/public\/fonts\/geodin\/3e0b2cd7-9657-438b-b4af-e04122e8f1f7.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/fonts\/geodin\/3e0b2cd7-9657-438b-b4af-e04122e8f1f7.eot",
+		"oF": 0
+		},
+	"\/public\/fonts\/geodin\/4393bcd9-65c9-4c71-b688-9a0c17e40ebf.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/fonts\/geodin\/4393bcd9-65c9-4c71-b688-9a0c17e40ebf.eot",
+		"oF": 0
+		},
+	"\/public\/fonts\/geodin\/44e7b0fa-6c8d-43c2-b19e-f1e3ce9ea57c.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/fonts\/geodin\/44e7b0fa-6c8d-43c2-b19e-f1e3ce9ea57c.woff2",
+		"oF": 0
+		},
+	"\/public\/fonts\/geodin\/77c5adea-c45f-4bd6-bc83-c171aa401eac.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/fonts\/geodin\/77c5adea-c45f-4bd6-bc83-c171aa401eac.eot",
+		"oF": 0
+		},
+	"\/public\/fonts\/geodin\/868c94b5-ca49-46b7-b62b-297f8d861125.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/fonts\/geodin\/868c94b5-ca49-46b7-b62b-297f8d861125.ttf",
+		"oF": 0
+		},
+	"\/public\/fonts\/geodin\/ae5b8a9c-af85-4ddf-a0a6-602405583707.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/public\/fonts\/geodin\/ae5b8a9c-af85-4ddf-a0a6-602405583707.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/public\/fonts\/geodin\/ae7eda9b-5729-4029-8ea8-1f4b2feb6595.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/fonts\/geodin\/ae7eda9b-5729-4029-8ea8-1f4b2feb6595.woff",
+		"oF": 0
+		},
+	"\/public\/fonts\/geodin\/bc176270-17fa-4c78-a343-9fe52824e501.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/fonts\/geodin\/bc176270-17fa-4c78-a343-9fe52824e501.woff",
+		"oF": 0
+		},
+	"\/public\/fonts\/geodin\/c5635d60-91fa-4e4b-8a51-41c97fc744c3.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/fonts\/geodin\/c5635d60-91fa-4e4b-8a51-41c97fc744c3.woff",
+		"oF": 0
+		},
+	"\/public\/fonts\/geodin\/c5a7f89e-15b6-49a9-8259-5ea665e72191.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/fonts\/geodin\/c5a7f89e-15b6-49a9-8259-5ea665e72191.woff",
+		"oF": 0
+		},
+	"\/public\/fonts\/geodin\/d1b1e866-a411-42ba-8f75-72bf28e23694.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/public\/fonts\/geodin\/d1b1e866-a411-42ba-8f75-72bf28e23694.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/public\/fonts\/geodin\/da088ecc-a53c-4831-a95b-6fd81b5b338a.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/fonts\/geodin\/da088ecc-a53c-4831-a95b-6fd81b5b338a.eot",
+		"oF": 0
+		},
+	"\/public\/fonts\/geodin\/de1216be-00c2-43c0-9c45-3e7f925eb519.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/fonts\/geodin\/de1216be-00c2-43c0-9c45-3e7f925eb519.woff2",
+		"oF": 0
+		},
+	"\/public\/fonts\/geodin\/de34232f-b870-49c0-a6c0-24c25db73bc2.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/fonts\/geodin\/de34232f-b870-49c0-a6c0-24c25db73bc2.ttf",
+		"oF": 0
+		},
+	"\/public\/fonts\/geodin\/e1c997f3-fb27-4289-abc6-5ef059e51723.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/fonts\/geodin\/e1c997f3-fb27-4289-abc6-5ef059e51723.woff",
+		"oF": 0
+		},
+	"\/public\/fonts\/geodin\/e3145f65-29b5-4f7f-8c6e-2dc135021b6a.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/public\/fonts\/geodin\/e3145f65-29b5-4f7f-8c6e-2dc135021b6a.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/public\/fonts\/geodin\/f37f8098-b16e-405f-ab24-bd595a5d5762.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/fonts\/geodin\/f37f8098-b16e-405f-ab24-bd595a5d5762.woff2",
+		"oF": 0
+		},
+	"\/public\/fonts\/geodin\/f5e7d965-e646-4ea9-8b21-bf17e3e5de42.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/fonts\/geodin\/f5e7d965-e646-4ea9-8b21-bf17e3e5de42.ttf",
+		"oF": 0
+		},
+	"\/public\/fonts\/icomoon.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/fonts\/icomoon.eot",
+		"oF": 0
+		},
+	"\/public\/fonts\/icomoon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/public\/fonts\/icomoon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/public\/fonts\/icomoon.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/fonts\/icomoon.ttf",
+		"oF": 0
+		},
+	"\/public\/fonts\/icomoon.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/fonts\/icomoon.woff",
+		"oF": 0
+		},
+	"\/public\/images\/CPD-Event-One-FA-Cropped.jpg": {
+		"ft": 16384,
+		"iS": 39814,
+		"oA": 0,
+		"oAP": "\/public\/images\/CPD-Event-One-FA-Cropped.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/public\/images\/CPD-Event-One-FA.jpg": {
+		"ft": 16384,
+		"iS": 127726,
+		"oA": 0,
+		"oAP": "\/public\/images\/CPD-Event-One-FA.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/public\/images\/CPD-Event-One-FA.png": {
+		"ft": 32768,
+		"iS": 800947,
+		"oA": 0,
+		"oAP": "\/public\/images\/CPD-Event-One-FA.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/public\/images\/CPD-Event-One-GS.jpg": {
+		"ft": 16384,
+		"iS": 110669,
+		"oA": 0,
+		"oAP": "\/public\/images\/CPD-Event-One-GS.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/public\/images\/CPD-Event-One-GS.png": {
+		"ft": 32768,
+		"iS": 826935,
+		"oA": 0,
+		"oAP": "\/public\/images\/CPD-Event-One-GS.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/public\/images\/CPD-Main-Events--Default.png": {
+		"ft": 32768,
+		"iS": 23415,
+		"oA": 0,
+		"oAP": "\/public\/images\/CPD-Main-Events--Default.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/public\/images\/CPD-Main-Events--Searched.png": {
+		"ft": 32768,
+		"iS": 21534,
+		"oA": 0,
+		"oAP": "\/public\/images\/CPD-Main-Events--Searched.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/public\/images\/CPD-Main-Live\/CPD-Event-One-800.jpg": {
+		"ft": 16384,
+		"iS": 237727,
+		"oA": 0,
+		"oAP": "\/public\/images\/CPD-Main-Live\/CPD-Event-One-800.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/public\/images\/CPD-Main-Live\/CPD-Event-One.png": {
+		"ft": 32768,
+		"iS": 969041,
+		"oA": 0,
+		"oAP": "\/public\/images\/CPD-Main-Live\/CPD-Event-One.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/public\/images\/CPD-Main-Live\/CPD-Home-Launch.png": {
+		"ft": 32768,
+		"iS": 639387,
+		"oA": 0,
+		"oAP": "\/public\/images\/CPD-Main-Live\/CPD-Home-Launch.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/public\/images\/CPD-Main-Live\/CPD-Home-Middle-800.jpg": {
+		"ft": 16384,
+		"iS": 54868,
+		"oA": 0,
+		"oAP": "\/public\/images\/CPD-Main-Live\/CPD-Home-Middle-800.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/public\/images\/CPD-Main-Live\/CPD-Home-Middle.png": {
+		"ft": 32768,
+		"iS": 487057,
+		"oA": 0,
+		"oAP": "\/public\/images\/CPD-Main-Live\/CPD-Home-Middle.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/public\/images\/CPD-Main-Live\/CPD-Home-Top-750.jpg": {
+		"ft": 16384,
+		"iS": 95766,
+		"oA": 0,
+		"oAP": "\/public\/images\/CPD-Main-Live\/CPD-Home-Top-750.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/public\/images\/CPD-Main-Live\/CPD-Home-Top-800.jpg": {
+		"ft": 16384,
+		"iS": 161715,
+		"oA": 0,
+		"oAP": "\/public\/images\/CPD-Main-Live\/CPD-Home-Top-800.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/public\/images\/CPD-Main-Live\/CPD-Home-Top-800.png": {
+		"ft": 32768,
+		"iS": 336969,
+		"oA": 0,
+		"oAP": "\/public\/images\/CPD-Main-Live\/CPD-Home-Top-800.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/public\/images\/CPD-Main-Live\/CPD-Home-Top.png": {
+		"ft": 32768,
+		"iS": 1409880,
+		"oA": 0,
+		"oAP": "\/public\/images\/CPD-Main-Live\/CPD-Home-Top.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/public\/images\/CPD-Main-Live\/CPD-Main-Events--Searched.png": {
+		"ft": 32768,
+		"iS": 21534,
+		"oA": 0,
+		"oAP": "\/public\/images\/CPD-Main-Live\/CPD-Main-Events--Searched.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/public\/images\/CPD-Main-Process\/CPD-Event-One.png": {
+		"ft": 32768,
+		"iS": 969041,
+		"oA": 0,
+		"oAP": "\/public\/images\/CPD-Main-Process\/CPD-Event-One.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/public\/images\/CPD-Main-Process\/CPD-Home-Launch.png": {
+		"ft": 32768,
+		"iS": 639387,
+		"oA": 0,
+		"oAP": "\/public\/images\/CPD-Main-Process\/CPD-Home-Launch.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/public\/images\/CPD-Main-Process\/CPD-Home-Middle.png": {
+		"ft": 32768,
+		"iS": 487057,
+		"oA": 0,
+		"oAP": "\/public\/images\/CPD-Main-Process\/CPD-Home-Middle.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/public\/images\/CPD-Main-Process\/CPD-Home-Top.png": {
+		"ft": 32768,
+		"iS": 1409880,
+		"oA": 0,
+		"oAP": "\/public\/images\/CPD-Main-Process\/CPD-Home-Top.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/public\/images\/CPD-Main-Process\/CPD-Main--Client-Initial-Concepts.jpg": {
+		"ft": 16384,
+		"iS": 901284,
+		"oA": 0,
+		"oAP": "\/public\/images\/CPD-Main-Process\/CPD-Main--Client-Initial-Concepts.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/public\/images\/CPD-Main-Process\/CPD-Main--Client-Initial-Mockup.jpg": {
+		"ft": 16384,
+		"iS": 210518,
+		"oA": 0,
+		"oAP": "\/public\/images\/CPD-Main-Process\/CPD-Main--Client-Initial-Mockup.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/public\/images\/CPD-Main-Process\/CPD-Main--Option1.jpg": {
+		"ft": 16384,
+		"iS": 63894,
+		"oA": 0,
+		"oAP": "\/public\/images\/CPD-Main-Process\/CPD-Main--Option1.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/public\/images\/CPD-Main-Process\/CPD-Main--Option2.jpg": {
+		"ft": 16384,
+		"iS": 66758,
+		"oA": 0,
+		"oAP": "\/public\/images\/CPD-Main-Process\/CPD-Main--Option2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/public\/images\/CPD-Main-Process\/CPD-Main--Option3.jpg": {
+		"ft": 16384,
+		"iS": 59846,
+		"oA": 0,
+		"oAP": "\/public\/images\/CPD-Main-Process\/CPD-Main--Option3.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/public\/images\/CPD-Main-Process\/CPD-Main-Events--Searched.jpg": {
+		"ft": 16384,
+		"iS": 28637,
+		"oA": 0,
+		"oAP": "\/public\/images\/CPD-Main-Process\/CPD-Main-Events--Searched.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/public\/images\/CPD-Main-Process\/CPD-Main-Search-API.jpg": {
+		"ft": 16384,
+		"iS": 91767,
+		"oA": 0,
+		"oAP": "\/public\/images\/CPD-Main-Process\/CPD-Main-Search-API.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/public\/images\/CPD-Main-Process\/CPD-Research.png": {
+		"ft": 32768,
+		"iS": 668649,
+		"oA": 0,
+		"oAP": "\/public\/images\/CPD-Main-Process\/CPD-Research.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/public\/images\/CPD-Main-Process\/CPD-Sales.jpg": {
+		"ft": 16384,
+		"iS": 49953,
+		"oA": 0,
+		"oAP": "\/public\/images\/CPD-Main-Process\/CPD-Sales.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/public\/images\/CPD-Main-Process\/CPD-Sales.png": {
+		"ft": 32768,
+		"iS": 235072,
+		"oA": 0,
+		"oAP": "\/public\/images\/CPD-Main-Process\/CPD-Sales.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/public\/images\/CPD-Main-Site.png": {
+		"ft": 32768,
+		"iS": 130084,
+		"oA": 0,
+		"oAP": "\/public\/images\/CPD-Main-Site.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/public\/images\/CPD-Research\/Research-Desktop-Article.jpg": {
+		"ft": 16384,
+		"iS": 155155,
+		"oA": 0,
+		"oAP": "\/public\/images\/CPD-Research\/Research-Desktop-Article.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/public\/images\/CPD-Research\/Research-Desktop-Home.jpg": {
+		"ft": 16384,
+		"iS": 217448,
+		"oA": 0,
+		"oAP": "\/public\/images\/CPD-Research\/Research-Desktop-Home.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/public\/images\/CPD-Research\/Research-Laptop-Home.jpg": {
+		"ft": 16384,
+		"iS": 295238,
+		"oA": 0,
+		"oAP": "\/public\/images\/CPD-Research\/Research-Laptop-Home.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/public\/images\/CPD-Research\/Research-Tablet-Clarity.jpg": {
+		"ft": 16384,
+		"iS": 237017,
+		"oA": 0,
+		"oAP": "\/public\/images\/CPD-Research\/Research-Tablet-Clarity.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/public\/images\/CPD-Research\/Research-Tablet-One.jpg": {
+		"ft": 16384,
+		"iS": 250440,
+		"oA": 0,
+		"oAP": "\/public\/images\/CPD-Research\/Research-Tablet-One.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/public\/images\/Development--CPD-Events-Search-API.png": {
+		"ft": 32768,
+		"iS": 55874,
+		"oA": 0,
+		"oAP": "\/public\/images\/Development--CPD-Events-Search-API.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/public\/images\/icon.png": {
+		"ft": 32768,
+		"iS": 2685,
+		"oA": 0,
+		"oAP": "\/public\/images\/icon.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/public\/images\/Jiggins-Home.jpg": {
+		"ft": 16384,
+		"iS": 28084,
+		"oA": 0,
+		"oAP": "\/public\/images\/Jiggins-Home.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/public\/images\/Jiggins-Home.png": {
+		"ft": 32768,
+		"iS": 108217,
+		"oA": 0,
+		"oAP": "\/public\/images\/Jiggins-Home.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/public\/images\/L1012921-Web.jpg": {
+		"ft": 16384,
+		"iS": 59869,
+		"oA": 0,
+		"oAP": "\/public\/images\/L1012921-Web.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/public\/images\/L1035960-Web.jpg": {
+		"ft": 16384,
+		"iS": 86699,
+		"oA": 0,
+		"oAP": "\/public\/images\/L1035960-Web.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/public\/images\/Matt-Jiggins-Camera.jpg": {
+		"ft": 16384,
+		"iS": 77247,
+		"oA": 0,
+		"oAP": "\/public\/images\/Matt-Jiggins-Camera.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/public\/images\/Matt-Jiggins-Left.jpg": {
+		"ft": 16384,
+		"iS": 51908,
+		"oA": 0,
+		"oAP": "\/public\/images\/Matt-Jiggins-Left.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/public\/images\/Matt-Jiggins.jpg": {
+		"ft": 16384,
+		"iS": 33173,
+		"oA": 0,
+		"oAP": "\/public\/images\/Matt-Jiggins.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/public\/images\/NewRelic-CPD.jpg": {
+		"ft": 16384,
+		"iS": 61550,
+		"oA": 0,
+		"oAP": "\/public\/images\/NewRelic-CPD.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/public\/images\/OliviaChow-Photo-Cropped.jpg": {
+		"ft": 16384,
+		"iS": 29155,
+		"oA": 0,
+		"oAP": "\/public\/images\/OliviaChow-Photo-Cropped.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/public\/images\/OliviaChow-Photo.jpg": {
+		"ft": 16384,
+		"iS": 18471,
+		"oA": 0,
+		"oAP": "\/public\/images\/OliviaChow-Photo.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/public\/images\/originals\/CPD-AWS-Image.png": {
+		"ft": 32768,
+		"iS": 106893,
+		"oA": 0,
+		"oAP": "\/public\/images\/originals\/CPD-AWS-Image.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/public\/images\/originals\/L1012921-Web-Reverse.jpg": {
+		"ft": 16384,
+		"iS": 59809,
+		"oA": 0,
+		"oAP": "\/public\/images\/originals\/L1012921-Web-Reverse.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/public\/images\/originals\/L1012921-Web.jpg": {
+		"ft": 16384,
+		"iS": 59869,
+		"oA": 0,
+		"oAP": "\/public\/images\/originals\/L1012921-Web.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/public\/images\/originals\/L1012921.jpg": {
+		"ft": 16384,
+		"iS": 2593910,
+		"oA": 0,
+		"oAP": "\/public\/images\/originals\/L1012921.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/public\/images\/originals\/L1035960-1.jpg": {
+		"ft": 16384,
+		"iS": 1497250,
+		"oA": 0,
+		"oAP": "\/public\/images\/originals\/L1035960-1.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/public\/images\/originals\/L1035960-Web.jpg": {
+		"ft": 16384,
+		"iS": 86699,
+		"oA": 0,
+		"oAP": "\/public\/images\/originals\/L1035960-Web.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/public\/images\/originals\/L1035960.jpg": {
+		"ft": 16384,
+		"iS": 1458510,
+		"oA": 0,
+		"oAP": "\/public\/images\/originals\/L1035960.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/public\/images\/originals\/Screen Shot 2014-12-14 at 7.06.52 PM.png": {
+		"ft": 32768,
+		"iS": 138597,
+		"oA": 0,
+		"oAP": "\/public\/images\/originals\/Screen Shot 2014-12-14 at 7.06.52 PM.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/public\/images\/ProgressiveToronto-Launch.jpg": {
+		"ft": 16384,
+		"iS": 97421,
+		"oA": 0,
+		"oAP": "\/public\/images\/ProgressiveToronto-Launch.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/public\/images\/USW-EveryonesChance.jpg": {
+		"ft": 16384,
+		"iS": 71274,
+		"oA": 0,
+		"oAP": "\/public\/images\/USW-EveryonesChance.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/public\/images\/USW-EveryonesChance.png": {
+		"ft": 32768,
+		"iS": 1380130,
+		"oA": 0,
+		"oAP": "\/public\/images\/USW-EveryonesChance.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/public\/images\/Website--Olivia-Chow.jpg": {
+		"ft": 16384,
+		"iS": 57505,
+		"oA": 0,
+		"oAP": "\/public\/images\/Website--Olivia-Chow.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/public\/images\/Website--Olivia-Chow.png": {
+		"ft": 32768,
+		"iS": 2572970,
+		"oA": 0,
+		"oAP": "\/public\/images\/Website--Olivia-Chow.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/public\/images\/Website--PEM2013.png": {
+		"ft": 32768,
+		"iS": 60326,
+		"oA": 0,
+		"oAP": "\/public\/images\/Website--PEM2013.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/public\/images\/Website--Queens.jpg": {
+		"ft": 16384,
+		"iS": 49678,
+		"oA": 0,
+		"oAP": "\/public\/images\/Website--Queens.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/public\/scripts\/jslightbox.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/public\/scripts\/min\/jslightbox-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/public\/scripts\/min\/jslightbox-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/public\/scripts\/min\/min\/jslightbox-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/public\/stylesheets\/css\/application.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/css\/application-ck.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/public\/stylesheets\/css\/application.css.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/stylesheets\/css\/application.css.map",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/0369128e18ac4898dbd5bc786844d970a9ee56ba\/_bourbon-deprecated-upcoming.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/0369128e18ac4898dbd5bc786844d970a9ee56ba\/_bourbon-deprecated-upcoming.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/0369128e18ac4898dbd5bc786844d970a9ee56ba\/_bourbon.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/0369128e18ac4898dbd5bc786844d970a9ee56ba\/_bourbon.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/0c635b7f15a92755c41aedca74c12456925c5831\/_convert-units.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/0c635b7f15a92755c41aedca74c12456925c5831\/_convert-units.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/0c635b7f15a92755c41aedca74c12456925c5831\/_directional-values.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/0c635b7f15a92755c41aedca74c12456925c5831\/_directional-values.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/0c635b7f15a92755c41aedca74c12456925c5831\/_font-source-declaration.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/0c635b7f15a92755c41aedca74c12456925c5831\/_font-source-declaration.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/0c635b7f15a92755c41aedca74c12456925c5831\/_gradient-positions-parser.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/0c635b7f15a92755c41aedca74c12456925c5831\/_gradient-positions-parser.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/0c635b7f15a92755c41aedca74c12456925c5831\/_linear-angle-parser.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/0c635b7f15a92755c41aedca74c12456925c5831\/_linear-angle-parser.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/0c635b7f15a92755c41aedca74c12456925c5831\/_linear-gradient-parser.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/0c635b7f15a92755c41aedca74c12456925c5831\/_linear-gradient-parser.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/0c635b7f15a92755c41aedca74c12456925c5831\/_linear-positions-parser.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/0c635b7f15a92755c41aedca74c12456925c5831\/_linear-positions-parser.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/0c635b7f15a92755c41aedca74c12456925c5831\/_linear-side-corner-parser.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/0c635b7f15a92755c41aedca74c12456925c5831\/_linear-side-corner-parser.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/0c635b7f15a92755c41aedca74c12456925c5831\/_radial-arg-parser.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/0c635b7f15a92755c41aedca74c12456925c5831\/_radial-arg-parser.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/0c635b7f15a92755c41aedca74c12456925c5831\/_radial-gradient-parser.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/0c635b7f15a92755c41aedca74c12456925c5831\/_radial-gradient-parser.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/0c635b7f15a92755c41aedca74c12456925c5831\/_radial-positions-parser.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/0c635b7f15a92755c41aedca74c12456925c5831\/_radial-positions-parser.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/0c635b7f15a92755c41aedca74c12456925c5831\/_render-gradients.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/0c635b7f15a92755c41aedca74c12456925c5831\/_render-gradients.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/0c635b7f15a92755c41aedca74c12456925c5831\/_shape-size-stripper.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/0c635b7f15a92755c41aedca74c12456925c5831\/_shape-size-stripper.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/0c635b7f15a92755c41aedca74c12456925c5831\/_str-to-num.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/0c635b7f15a92755c41aedca74c12456925c5831\/_str-to-num.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/1b4115c27771533983cba1020a96b38fad4d62c9\/_border-color.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/1b4115c27771533983cba1020a96b38fad4d62c9\/_border-color.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/1b4115c27771533983cba1020a96b38fad4d62c9\/_border-radius.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/1b4115c27771533983cba1020a96b38fad4d62c9\/_border-radius.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/1b4115c27771533983cba1020a96b38fad4d62c9\/_border-style.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/1b4115c27771533983cba1020a96b38fad4d62c9\/_border-style.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/1b4115c27771533983cba1020a96b38fad4d62c9\/_border-width.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/1b4115c27771533983cba1020a96b38fad4d62c9\/_border-width.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/1b4115c27771533983cba1020a96b38fad4d62c9\/_buttons.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/1b4115c27771533983cba1020a96b38fad4d62c9\/_buttons.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/1b4115c27771533983cba1020a96b38fad4d62c9\/_clearfix.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/1b4115c27771533983cba1020a96b38fad4d62c9\/_clearfix.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/1b4115c27771533983cba1020a96b38fad4d62c9\/_ellipsis.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/1b4115c27771533983cba1020a96b38fad4d62c9\/_ellipsis.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/1b4115c27771533983cba1020a96b38fad4d62c9\/_font-stacks.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/1b4115c27771533983cba1020a96b38fad4d62c9\/_font-stacks.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/1b4115c27771533983cba1020a96b38fad4d62c9\/_hide-text.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/1b4115c27771533983cba1020a96b38fad4d62c9\/_hide-text.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/1b4115c27771533983cba1020a96b38fad4d62c9\/_margin.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/1b4115c27771533983cba1020a96b38fad4d62c9\/_margin.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/1b4115c27771533983cba1020a96b38fad4d62c9\/_padding.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/1b4115c27771533983cba1020a96b38fad4d62c9\/_padding.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/1b4115c27771533983cba1020a96b38fad4d62c9\/_position.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/1b4115c27771533983cba1020a96b38fad4d62c9\/_position.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/1b4115c27771533983cba1020a96b38fad4d62c9\/_prefixer.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/1b4115c27771533983cba1020a96b38fad4d62c9\/_prefixer.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/1b4115c27771533983cba1020a96b38fad4d62c9\/_retina-image.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/1b4115c27771533983cba1020a96b38fad4d62c9\/_retina-image.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/1b4115c27771533983cba1020a96b38fad4d62c9\/_size.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/1b4115c27771533983cba1020a96b38fad4d62c9\/_size.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/1b4115c27771533983cba1020a96b38fad4d62c9\/_text-inputs.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/1b4115c27771533983cba1020a96b38fad4d62c9\/_text-inputs.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/1b4115c27771533983cba1020a96b38fad4d62c9\/_timing-functions.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/1b4115c27771533983cba1020a96b38fad4d62c9\/_timing-functions.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/1b4115c27771533983cba1020a96b38fad4d62c9\/_triangle.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/1b4115c27771533983cba1020a96b38fad4d62c9\/_triangle.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/1b4115c27771533983cba1020a96b38fad4d62c9\/_word-wrap.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/1b4115c27771533983cba1020a96b38fad4d62c9\/_word-wrap.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/2a584fbaeaf02fafa7b9b8cdd52a6b0f833cc2a2\/_icons.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/2a584fbaeaf02fafa7b9b8cdd52a6b0f833cc2a2\/_icons.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/2a584fbaeaf02fafa7b9b8cdd52a6b0f833cc2a2\/_links.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/2a584fbaeaf02fafa7b9b8cdd52a6b0f833cc2a2\/_links.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/2a584fbaeaf02fafa7b9b8cdd52a6b0f833cc2a2\/_modernizr.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/2a584fbaeaf02fafa7b9b8cdd52a6b0f833cc2a2\/_modernizr.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/2a584fbaeaf02fafa7b9b8cdd52a6b0f833cc2a2\/_resets.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/2a584fbaeaf02fafa7b9b8cdd52a6b0f833cc2a2\/_resets.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/2a584fbaeaf02fafa7b9b8cdd52a6b0f833cc2a2\/_type.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/2a584fbaeaf02fafa7b9b8cdd52a6b0f833cc2a2\/_type.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/2dca62d85f1c78c1ae3006325de753dcf24cff69\/_3D.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/2dca62d85f1c78c1ae3006325de753dcf24cff69\/_3D.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/2dca62d85f1c78c1ae3006325de753dcf24cff69\/_base.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/2dca62d85f1c78c1ae3006325de753dcf24cff69\/_base.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/2dca62d85f1c78c1ae3006325de753dcf24cff69\/_bordered.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/2dca62d85f1c78c1ae3006325de753dcf24cff69\/_bordered.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/2dca62d85f1c78c1ae3006325de753dcf24cff69\/_flat.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/2dca62d85f1c78c1ae3006325de753dcf24cff69\/_flat.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/2dca62d85f1c78c1ae3006325de753dcf24cff69\/_simple.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/2dca62d85f1c78c1ae3006325de753dcf24cff69\/_simple.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/44d1d4c68e6df5ca373b0d7a8ecc1ed77ffce3b5\/_showcase-cpd.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/44d1d4c68e6df5ca373b0d7a8ecc1ed77ffce3b5\/_showcase-cpd.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/44d1d4c68e6df5ca373b0d7a8ecc1ed77ffce3b5\/_showcase-smaller.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/44d1d4c68e6df5ca373b0d7a8ecc1ed77ffce3b5\/_showcase-smaller.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/44d1d4c68e6df5ca373b0d7a8ecc1ed77ffce3b5\/_showcase1-browsers.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/44d1d4c68e6df5ca373b0d7a8ecc1ed77ffce3b5\/_showcase1-browsers.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/4efdb5830f45406c73c42501904f3e62a92a9ab2\/_functions.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/4efdb5830f45406c73c42501904f3e62a92a9ab2\/_functions.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/4efdb5830f45406c73c42501904f3e62a92a9ab2\/_variables.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/4efdb5830f45406c73c42501904f3e62a92a9ab2\/_variables.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/68d44b959b435d6bf31cc381879d251831d324c9\/_buttons.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/68d44b959b435d6bf31cc381879d251831d324c9\/_buttons.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/68d44b959b435d6bf31cc381879d251831d324c9\/_cards.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/68d44b959b435d6bf31cc381879d251831d324c9\/_cards.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/68d44b959b435d6bf31cc381879d251831d324c9\/_images.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/68d44b959b435d6bf31cc381879d251831d324c9\/_images.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/68d44b959b435d6bf31cc381879d251831d324c9\/_lightbox.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/68d44b959b435d6bf31cc381879d251831d324c9\/_lightbox.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/6ccceab20fe5edb64b3632c3e6ee7b6553ae33d9\/_contact.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/6ccceab20fe5edb64b3632c3e6ee7b6553ae33d9\/_contact.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/6ccceab20fe5edb64b3632c3e6ee7b6553ae33d9\/_container.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/6ccceab20fe5edb64b3632c3e6ee7b6553ae33d9\/_container.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/6ccceab20fe5edb64b3632c3e6ee7b6553ae33d9\/_containers.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/6ccceab20fe5edb64b3632c3e6ee7b6553ae33d9\/_containers.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/6ccceab20fe5edb64b3632c3e6ee7b6553ae33d9\/_flickr.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/6ccceab20fe5edb64b3632c3e6ee7b6553ae33d9\/_flickr.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/6ccceab20fe5edb64b3632c3e6ee7b6553ae33d9\/_leader.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/6ccceab20fe5edb64b3632c3e6ee7b6553ae33d9\/_leader.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/6ccceab20fe5edb64b3632c3e6ee7b6553ae33d9\/_nav.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/6ccceab20fe5edb64b3632c3e6ee7b6553ae33d9\/_nav.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/6ccceab20fe5edb64b3632c3e6ee7b6553ae33d9\/_photos.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/6ccceab20fe5edb64b3632c3e6ee7b6553ae33d9\/_photos.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/6ccceab20fe5edb64b3632c3e6ee7b6553ae33d9\/_twitter.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/6ccceab20fe5edb64b3632c3e6ee7b6553ae33d9\/_twitter.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/6f1a948420f9c32c65a80b3e101154f0cfeec04e\/_sizes.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/6f1a948420f9c32c65a80b3e101154f0cfeec04e\/_sizes.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/6f1a948420f9c32c65a80b3e101154f0cfeec04e\/_styles.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/6f1a948420f9c32c65a80b3e101154f0cfeec04e\/_styles.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/6f1a948420f9c32c65a80b3e101154f0cfeec04e\/bbb.scssc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/6f1a948420f9c32c65a80b3e101154f0cfeec04e\/bbb.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/75e404f15486325f59193dc3c249843a61945aa2\/_neat-helpers.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/75e404f15486325f59193dc3c249843a61945aa2\/_neat-helpers.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/75e404f15486325f59193dc3c249843a61945aa2\/_neat.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/75e404f15486325f59193dc3c249843a61945aa2\/_neat.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/7ead049ef193409609258852505494ea661559cc\/_box-sizing.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/7ead049ef193409609258852505494ea661559cc\/_box-sizing.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/7ead049ef193409609258852505494ea661559cc\/_direction-context.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/7ead049ef193409609258852505494ea661559cc\/_direction-context.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/7ead049ef193409609258852505494ea661559cc\/_display-context.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/7ead049ef193409609258852505494ea661559cc\/_display-context.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/7ead049ef193409609258852505494ea661559cc\/_fill-parent.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/7ead049ef193409609258852505494ea661559cc\/_fill-parent.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/7ead049ef193409609258852505494ea661559cc\/_media.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/7ead049ef193409609258852505494ea661559cc\/_media.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/7ead049ef193409609258852505494ea661559cc\/_omega.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/7ead049ef193409609258852505494ea661559cc\/_omega.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/7ead049ef193409609258852505494ea661559cc\/_outer-container.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/7ead049ef193409609258852505494ea661559cc\/_outer-container.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/7ead049ef193409609258852505494ea661559cc\/_pad.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/7ead049ef193409609258852505494ea661559cc\/_pad.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/7ead049ef193409609258852505494ea661559cc\/_private.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/7ead049ef193409609258852505494ea661559cc\/_private.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/7ead049ef193409609258852505494ea661559cc\/_row.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/7ead049ef193409609258852505494ea661559cc\/_row.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/7ead049ef193409609258852505494ea661559cc\/_shift.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/7ead049ef193409609258852505494ea661559cc\/_shift.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/7ead049ef193409609258852505494ea661559cc\/_span-columns.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/7ead049ef193409609258852505494ea661559cc\/_span-columns.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/7ead049ef193409609258852505494ea661559cc\/_to-deprecate.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/7ead049ef193409609258852505494ea661559cc\/_to-deprecate.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/7ead049ef193409609258852505494ea661559cc\/_visual-grid.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/7ead049ef193409609258852505494ea661559cc\/_visual-grid.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/9026bddd9f51655ac8b74bbacb4a91dafe571a62\/_assign-inputs.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/9026bddd9f51655ac8b74bbacb4a91dafe571a62\/_assign-inputs.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/9026bddd9f51655ac8b74bbacb4a91dafe571a62\/_contains-falsy.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/9026bddd9f51655ac8b74bbacb4a91dafe571a62\/_contains-falsy.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/9026bddd9f51655ac8b74bbacb4a91dafe571a62\/_contains.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/9026bddd9f51655ac8b74bbacb4a91dafe571a62\/_contains.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/9026bddd9f51655ac8b74bbacb4a91dafe571a62\/_is-length.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/9026bddd9f51655ac8b74bbacb4a91dafe571a62\/_is-length.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/9026bddd9f51655ac8b74bbacb4a91dafe571a62\/_is-light.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/9026bddd9f51655ac8b74bbacb4a91dafe571a62\/_is-light.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/9026bddd9f51655ac8b74bbacb4a91dafe571a62\/_is-number.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/9026bddd9f51655ac8b74bbacb4a91dafe571a62\/_is-number.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/9026bddd9f51655ac8b74bbacb4a91dafe571a62\/_is-size.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/9026bddd9f51655ac8b74bbacb4a91dafe571a62\/_is-size.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/9026bddd9f51655ac8b74bbacb4a91dafe571a62\/_modular-scale.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/9026bddd9f51655ac8b74bbacb4a91dafe571a62\/_modular-scale.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/9026bddd9f51655ac8b74bbacb4a91dafe571a62\/_px-to-em.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/9026bddd9f51655ac8b74bbacb4a91dafe571a62\/_px-to-em.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/9026bddd9f51655ac8b74bbacb4a91dafe571a62\/_px-to-rem.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/9026bddd9f51655ac8b74bbacb4a91dafe571a62\/_px-to-rem.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/9026bddd9f51655ac8b74bbacb4a91dafe571a62\/_shade.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/9026bddd9f51655ac8b74bbacb4a91dafe571a62\/_shade.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/9026bddd9f51655ac8b74bbacb4a91dafe571a62\/_strip-units.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/9026bddd9f51655ac8b74bbacb4a91dafe571a62\/_strip-units.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/9026bddd9f51655ac8b74bbacb4a91dafe571a62\/_tint.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/9026bddd9f51655ac8b74bbacb4a91dafe571a62\/_tint.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/9026bddd9f51655ac8b74bbacb4a91dafe571a62\/_transition-property-name.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/9026bddd9f51655ac8b74bbacb4a91dafe571a62\/_transition-property-name.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/9026bddd9f51655ac8b74bbacb4a91dafe571a62\/_unpack.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/9026bddd9f51655ac8b74bbacb4a91dafe571a62\/_unpack.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/970642676826197fe4188071f74b4bcc2053ef41\/_asset-pipeline.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/970642676826197fe4188071f74b4bcc2053ef41\/_asset-pipeline.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/970642676826197fe4188071f74b4bcc2053ef41\/_prefixer.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/970642676826197fe4188071f74b4bcc2053ef41\/_prefixer.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/970642676826197fe4188071f74b4bcc2053ef41\/_px-to-em.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/970642676826197fe4188071f74b4bcc2053ef41\/_px-to-em.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/adb40d01bbf919ce9063b76c19db7537a20d6155\/_new-breakpoint.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/adb40d01bbf919ce9063b76c19db7537a20d6155\/_new-breakpoint.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/adb40d01bbf919ce9063b76c19db7537a20d6155\/_private.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/adb40d01bbf919ce9063b76c19db7537a20d6155\/_private.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/b5ca37f4d0592ea57c4a0ad31619ab1d158aea32\/_disable-warnings.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/b5ca37f4d0592ea57c4a0ad31619ab1d158aea32\/_disable-warnings.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/b5ca37f4d0592ea57c4a0ad31619ab1d158aea32\/_grid.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/b5ca37f4d0592ea57c4a0ad31619ab1d158aea32\/_grid.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/b5ca37f4d0592ea57c4a0ad31619ab1d158aea32\/_visual-grid.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/b5ca37f4d0592ea57c4a0ad31619ab1d158aea32\/_visual-grid.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/d796a8810cdf2dc05e9b942786e3b0d652e5d29f\/_animation.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/d796a8810cdf2dc05e9b942786e3b0d652e5d29f\/_animation.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/d796a8810cdf2dc05e9b942786e3b0d652e5d29f\/_appearance.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/d796a8810cdf2dc05e9b942786e3b0d652e5d29f\/_appearance.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/d796a8810cdf2dc05e9b942786e3b0d652e5d29f\/_backface-visibility.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/d796a8810cdf2dc05e9b942786e3b0d652e5d29f\/_backface-visibility.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/d796a8810cdf2dc05e9b942786e3b0d652e5d29f\/_background-image.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/d796a8810cdf2dc05e9b942786e3b0d652e5d29f\/_background-image.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/d796a8810cdf2dc05e9b942786e3b0d652e5d29f\/_background.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/d796a8810cdf2dc05e9b942786e3b0d652e5d29f\/_background.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/d796a8810cdf2dc05e9b942786e3b0d652e5d29f\/_border-image.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/d796a8810cdf2dc05e9b942786e3b0d652e5d29f\/_border-image.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/d796a8810cdf2dc05e9b942786e3b0d652e5d29f\/_calc.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/d796a8810cdf2dc05e9b942786e3b0d652e5d29f\/_calc.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/d796a8810cdf2dc05e9b942786e3b0d652e5d29f\/_columns.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/d796a8810cdf2dc05e9b942786e3b0d652e5d29f\/_columns.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/d796a8810cdf2dc05e9b942786e3b0d652e5d29f\/_filter.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/d796a8810cdf2dc05e9b942786e3b0d652e5d29f\/_filter.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/d796a8810cdf2dc05e9b942786e3b0d652e5d29f\/_flex-box.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/d796a8810cdf2dc05e9b942786e3b0d652e5d29f\/_flex-box.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/d796a8810cdf2dc05e9b942786e3b0d652e5d29f\/_font-face.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/d796a8810cdf2dc05e9b942786e3b0d652e5d29f\/_font-face.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/d796a8810cdf2dc05e9b942786e3b0d652e5d29f\/_font-feature-settings.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/d796a8810cdf2dc05e9b942786e3b0d652e5d29f\/_font-feature-settings.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/d796a8810cdf2dc05e9b942786e3b0d652e5d29f\/_hidpi-media-query.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/d796a8810cdf2dc05e9b942786e3b0d652e5d29f\/_hidpi-media-query.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/d796a8810cdf2dc05e9b942786e3b0d652e5d29f\/_hyphens.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/d796a8810cdf2dc05e9b942786e3b0d652e5d29f\/_hyphens.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/d796a8810cdf2dc05e9b942786e3b0d652e5d29f\/_image-rendering.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/d796a8810cdf2dc05e9b942786e3b0d652e5d29f\/_image-rendering.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/d796a8810cdf2dc05e9b942786e3b0d652e5d29f\/_keyframes.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/d796a8810cdf2dc05e9b942786e3b0d652e5d29f\/_keyframes.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/d796a8810cdf2dc05e9b942786e3b0d652e5d29f\/_linear-gradient.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/d796a8810cdf2dc05e9b942786e3b0d652e5d29f\/_linear-gradient.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/d796a8810cdf2dc05e9b942786e3b0d652e5d29f\/_perspective.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/d796a8810cdf2dc05e9b942786e3b0d652e5d29f\/_perspective.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/d796a8810cdf2dc05e9b942786e3b0d652e5d29f\/_placeholder.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/d796a8810cdf2dc05e9b942786e3b0d652e5d29f\/_placeholder.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/d796a8810cdf2dc05e9b942786e3b0d652e5d29f\/_radial-gradient.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/d796a8810cdf2dc05e9b942786e3b0d652e5d29f\/_radial-gradient.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/d796a8810cdf2dc05e9b942786e3b0d652e5d29f\/_selection.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/d796a8810cdf2dc05e9b942786e3b0d652e5d29f\/_selection.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/d796a8810cdf2dc05e9b942786e3b0d652e5d29f\/_text-decoration.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/d796a8810cdf2dc05e9b942786e3b0d652e5d29f\/_text-decoration.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/d796a8810cdf2dc05e9b942786e3b0d652e5d29f\/_transform.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/d796a8810cdf2dc05e9b942786e3b0d652e5d29f\/_transform.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/d796a8810cdf2dc05e9b942786e3b0d652e5d29f\/_transition.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/d796a8810cdf2dc05e9b942786e3b0d652e5d29f\/_transition.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/d796a8810cdf2dc05e9b942786e3b0d652e5d29f\/_user-select.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/d796a8810cdf2dc05e9b942786e3b0d652e5d29f\/_user-select.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/.sass-cache\/fefebc214284ee5abafd1251ce80f25d9bed6d4e\/application.scssc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/stylesheets\/scss\/.sass-cache\/fefebc214284ee5abafd1251ce80f25d9bed6d4e\/application.scssc",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/application.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/public\/stylesheets\/css\/application.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/base\/_icons.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/css\/_icons.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/base\/_links.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/css\/_links.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/base\/_modernizr.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/css\/_modernizr.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/base\/_resets.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/css\/_resets.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/base\/_type.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/css\/_type.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/components\/_buttons.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/css\/_buttons.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/components\/_cards.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/css\/_cards.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/components\/_images.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/css\/_images.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/components\/_lightbox.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/css\/_lightbox.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/layout\/_contact.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/css\/_contact.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/layout\/_containers.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/css\/_containers.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/layout\/_leader.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/css\/_leader.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/layout\/_nav.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/css\/_nav.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/layout\/_photos.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/css\/_photos.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/layout\/_twitter.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/css\/_twitter.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/pages\/home\/_showcase-cpd.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/pages\/css\/_showcase-cpd.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/pages\/home\/_showcase-smaller.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/pages\/css\/_showcase-smaller.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/pages\/home\/_showcase1-browsers.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/pages\/css\/_showcase1-browsers.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/utils\/_functions.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/css\/_functions.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/utils\/_variables.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/css\/_variables.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/better-bourbon-buttons\/.gitignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/better-bourbon-buttons\/.gitignore",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/vendor\/better-bourbon-buttons\/_sizes.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/css\/_sizes.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/better-bourbon-buttons\/_styles.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/css\/_styles.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/better-bourbon-buttons\/bbb.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/css\/bbb.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/better-bourbon-buttons\/LICENSE": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/better-bourbon-buttons\/LICENSE",
+		"oF": 0
+		},
+	"\/public\/stylesheets\/scss\/vendor\/better-bourbon-buttons\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/better-bourbon-buttons\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/public\/stylesheets\/scss\/vendor\/better-bourbon-buttons\/styles\/_3D.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/better-bourbon-buttons\/css\/_3D.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/better-bourbon-buttons\/styles\/_base.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/better-bourbon-buttons\/css\/_base.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/better-bourbon-buttons\/styles\/_bordered.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/better-bourbon-buttons\/css\/_bordered.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/better-bourbon-buttons\/styles\/_flat.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/better-bourbon-buttons\/css\/_flat.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/better-bourbon-buttons\/styles\/_simple.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/better-bourbon-buttons\/css\/_simple.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/_bourbon-deprecated-upcoming.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/css\/_bourbon-deprecated-upcoming.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/_bourbon.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/css\/_bourbon.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/addons\/_border-color.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_border-color.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/addons\/_border-radius.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_border-radius.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/addons\/_border-style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_border-style.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/addons\/_border-width.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_border-width.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/addons\/_buttons.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_buttons.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/addons\/_clearfix.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_clearfix.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/addons\/_ellipsis.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_ellipsis.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/addons\/_font-stacks.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_font-stacks.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/addons\/_hide-text.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_hide-text.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/addons\/_margin.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_margin.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/addons\/_padding.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_padding.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/addons\/_position.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_position.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/addons\/_prefixer.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_prefixer.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/addons\/_retina-image.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_retina-image.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/addons\/_size.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_size.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/addons\/_text-inputs.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_text-inputs.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/addons\/_timing-functions.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_timing-functions.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/addons\/_triangle.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_triangle.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/addons\/_word-wrap.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_word-wrap.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/css3\/_animation.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_animation.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/css3\/_appearance.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_appearance.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/css3\/_backface-visibility.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_backface-visibility.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/css3\/_background-image.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_background-image.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/css3\/_background.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_background.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/css3\/_border-image.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_border-image.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/css3\/_calc.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_calc.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/css3\/_columns.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_columns.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/css3\/_filter.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_filter.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/css3\/_flex-box.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_flex-box.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/css3\/_font-face.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_font-face.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/css3\/_font-feature-settings.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_font-feature-settings.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/css3\/_hidpi-media-query.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_hidpi-media-query.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/css3\/_hyphens.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_hyphens.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/css3\/_image-rendering.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_image-rendering.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/css3\/_keyframes.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_keyframes.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/css3\/_linear-gradient.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_linear-gradient.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/css3\/_perspective.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_perspective.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/css3\/_placeholder.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_placeholder.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/css3\/_radial-gradient.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_radial-gradient.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/css3\/_selection.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_selection.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/css3\/_text-decoration.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_text-decoration.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/css3\/_transform.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_transform.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/css3\/_transition.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_transition.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/css3\/_user-select.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_user-select.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/functions\/_assign-inputs.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_assign-inputs.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/functions\/_contains-falsy.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_contains-falsy.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/functions\/_contains.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_contains.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/functions\/_is-length.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_is-length.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/functions\/_is-light.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_is-light.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/functions\/_is-number.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_is-number.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/functions\/_is-size.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_is-size.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/functions\/_modular-scale.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_modular-scale.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/functions\/_px-to-em.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_px-to-em.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/functions\/_px-to-rem.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_px-to-rem.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/functions\/_shade.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_shade.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/functions\/_strip-units.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_strip-units.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/functions\/_tint.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_tint.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/functions\/_transition-property-name.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_transition-property-name.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/functions\/_unpack.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_unpack.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/helpers\/_convert-units.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_convert-units.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/helpers\/_directional-values.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_directional-values.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/helpers\/_font-source-declaration.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_font-source-declaration.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/helpers\/_gradient-positions-parser.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_gradient-positions-parser.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/helpers\/_linear-angle-parser.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_linear-angle-parser.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/helpers\/_linear-gradient-parser.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_linear-gradient-parser.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/helpers\/_linear-positions-parser.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_linear-positions-parser.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/helpers\/_linear-side-corner-parser.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_linear-side-corner-parser.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/helpers\/_radial-arg-parser.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_radial-arg-parser.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/helpers\/_radial-gradient-parser.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_radial-gradient-parser.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/helpers\/_radial-positions-parser.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_radial-positions-parser.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/helpers\/_render-gradients.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_render-gradients.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/helpers\/_shape-size-stripper.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_shape-size-stripper.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/helpers\/_str-to-num.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_str-to-num.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/settings\/_asset-pipeline.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_asset-pipeline.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/settings\/_prefixer.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_prefixer.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/bourbon\/settings\/_px-to-em.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/bourbon\/css\/_px-to-em.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/neat\/_neat-helpers.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/css\/_neat-helpers.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/neat\/_neat.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/css\/_neat.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/neat\/functions\/_new-breakpoint.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/neat\/css\/_new-breakpoint.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/neat\/functions\/_private.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/neat\/css\/_private.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/neat\/grid\/_box-sizing.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/neat\/css\/_box-sizing.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/neat\/grid\/_direction-context.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/neat\/css\/_direction-context.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/neat\/grid\/_display-context.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/neat\/css\/_display-context.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/neat\/grid\/_fill-parent.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/neat\/css\/_fill-parent.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/neat\/grid\/_media.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/neat\/css\/_media.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/neat\/grid\/_omega.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/neat\/css\/_omega.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/neat\/grid\/_outer-container.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/neat\/css\/_outer-container.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/neat\/grid\/_pad.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/neat\/css\/_pad.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/neat\/grid\/_private.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/neat\/css\/_private.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/neat\/grid\/_row.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/neat\/css\/_row.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/neat\/grid\/_shift.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/neat\/css\/_shift.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/neat\/grid\/_span-columns.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/neat\/css\/_span-columns.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/neat\/grid\/_to-deprecate.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/neat\/css\/_to-deprecate.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/neat\/grid\/_visual-grid.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/neat\/css\/_visual-grid.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/neat\/settings\/_disable-warnings.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/neat\/css\/_disable-warnings.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/neat\/settings\/_grid.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/neat\/css\/_grid.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/vendor\/neat\/settings\/_visual-grid.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/vendor\/neat\/css\/_visual-grid.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/zz-old-archived\/_details.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/css\/_details.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/zz-old-archived\/_grid.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/css\/_grid.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/zz-old-archived\/_hero-letters.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/css\/_hero-letters.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/zz-old-archived\/_hero-modal.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/css\/_hero-modal.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/zz-old-archived\/_side-image.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/css\/_side-image.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/public\/stylesheets\/scss\/zz-old-archived\/_tooltip.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/public\/stylesheets\/scss\/css\/_tooltip.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/readme.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/readme.html",
+		"oF": 1,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/routes\/about.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/routes\/min\/about-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/routes\/api-1-500px.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/routes\/min\/api-1-500px-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/routes\/api-1-twitter.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/routes\/min\/api-1-twitter-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/routes\/classic.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/routes\/min\/classic-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/routes\/index.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/routes\/min\/index-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/routes\/users.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/routes\/min\/users-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/routes\/welcome.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/routes\/welcome.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/views\/about.handlebars": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/views\/about.handlebars",
+		"oF": 0
+		},
+	"\/views\/error.handlebars": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/views\/error.handlebars",
+		"oF": 0
+		},
+	"\/views\/index.handlebars": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/views\/index.handlebars",
+		"oF": 0
+		},
+	"\/views\/layouts\/inside.handlebars": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/views\/layouts\/inside.handlebars",
+		"oF": 0
+		},
+	"\/views\/layouts\/main.handlebars": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/views\/layouts\/main.handlebars",
+		"oF": 0
+		},
+	"\/views\/partials\/colour-svg.handlebars": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/views\/partials\/colour-svg.handlebars",
+		"oF": 0
+		},
+	"\/views\/partials\/footer.handlebars": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/views\/partials\/footer.handlebars",
+		"oF": 0
+		},
+	"\/views\/partials\/head.handlebars": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/views\/partials\/head.handlebars",
+		"oF": 0
+		},
+	"\/views\/partials\/hero-inside.handlebars": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/views\/partials\/hero-inside.handlebars",
+		"oF": 0
+		},
+	"\/views\/partials\/hero.handlebars": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/views\/partials\/hero.handlebars",
+		"oF": 0
+		},
+	"\/views\/partials\/navigation.handlebars": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/views\/partials\/navigation.handlebars",
+		"oF": 0
+		},
+	"\/views\/partials\/scripts.handlebars": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/views\/partials\/scripts.handlebars",
+		"oF": 0
+		},
+	"\/views\/partials\/styles.handlebars": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/views\/partials\/styles.handlebars",
+		"oF": 0
+		}
+	},
+"hooks": [
+	],
+"manualImportLinks": {
+	},
+"projectAttributes": {
+	"creationDate": 499600902,
+	"displayValue": "jiggins-node",
+	"displayValueWasSetByUser": 1,
+	"iconImageName": "meme-grumpy"
+	},
+"projectSettings": {
+	"abortBuildOnError": 1,
+	"alwaysUseExternalServer": 1,
+	"animateCSSInjections": 1,
+	"autoBuildNewItems": 1,
+	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"babelAuxiliaryCommentAfter": "",
+	"babelAuxiliaryCommentBefore": "",
+	"babelConfigFileHandlingType": 0,
+	"babelCustomPluginsList": "",
+	"babelCustomPresetsList": "",
+	"babelInsertModuleIDs": 0,
+	"babelModuleID": "",
+	"babelNoComments": 0,
+	"babelPlugins": {
+		"async-to-generator": {
+			"active": 0
+			},
+		"async-to-module-method": {
+			"active": 0
+			},
+		"class-properties": {
+			"active": 0
+			},
+		"decorators": {
+			"active": 0
+			},
+		"decorators-legacy": {
+			"active": 0
+			},
+		"do-expressions": {
+			"active": 0
+			},
+		"es2015-arrow-functions": {
+			"active": 0
+			},
+		"es2015-block-scoped-functions": {
+			"active": 0
+			},
+		"es2015-block-scoping": {
+			"active": 0
+			},
+		"es2015-classes": {
+			"active": 0
+			},
+		"es2015-computed-properties": {
+			"active": 0
+			},
+		"es2015-constants": {
+			"active": 0
+			},
+		"es2015-destructuring": {
+			"active": 0
+			},
+		"es2015-duplicate-keys": {
+			"active": 0
+			},
+		"es2015-for-of": {
+			"active": 0
+			},
+		"es2015-function-name": {
+			"active": 0
+			},
+		"es2015-literals": {
+			"active": 0
+			},
+		"es2015-modules-amd": {
+			"active": 0
+			},
+		"es2015-modules-commonjs": {
+			"active": 0
+			},
+		"es2015-modules-systemjs": {
+			"active": 0
+			},
+		"es2015-modules-umd": {
+			"active": 0
+			},
+		"es2015-object-super": {
+			"active": 0
+			},
+		"es2015-parameters": {
+			"active": 0
+			},
+		"es2015-shorthand-properties": {
+			"active": 0
+			},
+		"es2015-spread": {
+			"active": 0
+			},
+		"es2015-sticky-regex": {
+			"active": 0
+			},
+		"es2015-template-literals": {
+			"active": 0
+			},
+		"es2015-typeof-symbol": {
+			"active": 0
+			},
+		"es2015-unicode-regex": {
+			"active": 0
+			},
+		"es3-member-expression-literals": {
+			"active": 0
+			},
+		"es3-property-literals": {
+			"active": 0
+			},
+		"es5-property-mutators": {
+			"active": 0
+			},
+		"eval": {
+			"active": 0
+			},
+		"exponentiation-operator": {
+			"active": 0
+			},
+		"export-extensions": {
+			"active": 0
+			},
+		"external-helpers": {
+			"active": 0
+			},
+		"flow-comments": {
+			"active": 0
+			},
+		"flow-strip-types": {
+			"active": 0
+			},
+		"function-bind": {
+			"active": 0
+			},
+		"inline-environment-variables": {
+			"active": 0
+			},
+		"jscript": {
+			"active": 0
+			},
+		"member-expression-literals": {
+			"active": 0
+			},
+		"merge-sibling-variables": {
+			"active": 0
+			},
+		"minify-booleans": {
+			"active": 0
+			},
+		"node-env-inline": {
+			"active": 0
+			},
+		"object-assign": {
+			"active": 0
+			},
+		"object-rest-spread": {
+			"active": 0
+			},
+		"object-set-prototype-of-to-assign": {
+			"active": 0
+			},
+		"property-literals": {
+			"active": 0
+			},
+		"proto-to-assign": {
+			"active": 0
+			},
+		"react-constant-elements": {
+			"active": 0
+			},
+		"react-display-name": {
+			"active": 0
+			},
+		"react-inline-elements": {
+			"active": 0
+			},
+		"react-jsx": {
+			"active": 0
+			},
+		"react-jsx-compat": {
+			"active": 0
+			},
+		"react-jsx-self": {
+			"active": 0
+			},
+		"react-jsx-source": {
+			"active": 0
+			},
+		"regenerator": {
+			"active": 0
+			},
+		"remove-console": {
+			"active": 0
+			},
+		"remove-debugger": {
+			"active": 0
+			},
+		"runtime": {
+			"active": 0
+			},
+		"simplify-comparison-operators": {
+			"active": 0
+			},
+		"strict-mode": {
+			"active": 0
+			},
+		"syntax-async-generators": {
+			"active": 0
+			},
+		"syntax-class-properties": {
+			"active": 0
+			},
+		"syntax-decorators": {
+			"active": 0
+			},
+		"syntax-do-expressions": {
+			"active": 0
+			},
+		"syntax-export-extensions": {
+			"active": 0
+			},
+		"syntax-flow": {
+			"active": 0
+			},
+		"syntax-function-bind": {
+			"active": 0
+			},
+		"syntax-function-sent": {
+			"active": 0
+			},
+		"syntax-jsx": {
+			"active": 0
+			},
+		"syntax-object-rest-spread": {
+			"active": 0
+			},
+		"undeclared-variables-check": {
+			"active": 0
+			},
+		"undefined-to-void": {
+			"active": 0
+			}
+		},
+	"babelPresetType": 193,
+	"babelRetainLines": 0,
+	"bowerAbbreviatedPath": "bower_components",
+	"bowerAutoCreateInfoFile": 1,
+	"bowerInstallDevDependencies": 0,
+	"bowerSaveDependencies": 1,
+	"bowerSaveDevDependencies": 0,
+	"bowerUseExactVersion": 0,
+	"browserRefreshDelay": 0,
+	"buildFolderActive": 0,
+	"buildFolderName": "build",
+	"cleanBuild": 1,
+	"coffeeLintFlags2": {
+		"arrow_spacing": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"camel_case_classes": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"colon_assignment_spacing": {
+			"active": 0,
+			"flagValue": 1
+			},
+		"cyclomatic_complexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"duplicate_key": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"ensure_comprehensions": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"indentation": {
+			"active": 1,
+			"flagValue": 2
+			},
+		"line_endings": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"max_line_length": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"missing_fat_arrows": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newlines_after_classes": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"no_backticks": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_empty_functions": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_empty_param_list": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_implicit_braces": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_implicit_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_interpolation_in_single_quotes": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_nested_string_interpolation": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_private_function_fat_arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_stand_alone_at": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_tabs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_this": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_throwing_strings": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_whitespace": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_unnecessary_double_quotes": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_unnecessary_fat_arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"non_empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prefer_english_operator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space_operators": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"spacing_after_comma": {
+			"active": 1,
+			"flagValue": -1
+			}
+		},
+	"esLintConfigFileHandlingType": 1,
+	"esLintECMAVersion": 7,
+	"esLintEnvironmentsMask": 1,
+	"esLintRules": {
+		"accessor-pairs": {
+			"active": 0,
+			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false}"
+			},
+		"array-bracket-spacing": {
+			"active": 0,
+			"optionString": "'never', {'singleValue': false, 'objectsInArrays': false, 'arraysInArrays': false}"
+			},
+		"array-callback-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"arrow-body-style": {
+			"active": 0,
+			"optionString": "'as-needed', {'requireReturnForObjectLiteral': false}"
+			},
+		"arrow-parens": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"arrow-spacing": {
+			"active": 0,
+			"optionString": "{'before': true, 'after': true}"
+			},
+		"block-scoped-var": {
+			"active": 0,
+			"optionString": ""
+			},
+		"block-spacing": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"brace-style": {
+			"active": 0,
+			"optionString": "'1tbs', {'allowSingleLine': true}"
+			},
+		"callback-return": {
+			"active": 0,
+			"optionString": "['callback', 'cb', 'next']"
+			},
+		"camelcase": {
+			"active": 0,
+			"optionString": "{'properties': 'always'}"
+			},
+		"class-methods-use-this": {
+			"active": 0,
+			"optionString": "{'exceptMethods': []}"
+			},
+		"comma-dangle": {
+			"active": 1,
+			"optionString": "'never'"
+			},
+		"comma-spacing": {
+			"active": 0,
+			"optionString": "{'before': false, 'after': true}"
+			},
+		"comma-style": {
+			"active": 0,
+			"optionString": "'last'"
+			},
+		"complexity": {
+			"active": 0,
+			"optionString": "20"
+			},
+		"computed-property-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"consistent-return": {
+			"active": 0,
+			"optionString": "{'treatUndefinedAsUnspecified': false}"
+			},
+		"consistent-this": {
+			"active": 0,
+			"optionString": "'that'"
+			},
+		"constructor-super": {
+			"active": 1,
+			"optionString": ""
+			},
+		"curly": {
+			"active": 0,
+			"optionString": "'all', 'consistent'"
+			},
+		"default-case": {
+			"active": 0,
+			"optionString": ""
+			},
+		"dot-location": {
+			"active": 0,
+			"optionString": "'object'"
+			},
+		"dot-notation": {
+			"active": 0,
+			"optionString": "{'allowKeywords': false}"
+			},
+		"eol-last": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"eqeqeq": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"func-call-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"func-name-matching": {
+			"active": 0,
+			"optionString": "{'includeCommonJSModuleExports': false}"
+			},
+		"func-names": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"func-style": {
+			"active": 0,
+			"optionString": "'expression'"
+			},
+		"generator-star-spacing": {
+			"active": 0,
+			"optionString": "{'before': true, 'after': false}"
+			},
+		"global-require": {
+			"active": 0,
+			"optionString": ""
+			},
+		"guard-for-in": {
+			"active": 0,
+			"optionString": ""
+			},
+		"handle-callback-err": {
+			"active": 0,
+			"optionString": "'err'"
+			},
+		"id-blacklist": {
+			"active": 0,
+			"optionString": "['error', 'data', 'err', 'e', 'cb', 'callback']"
+			},
+		"id-length": {
+			"active": 0,
+			"optionString": "{'min': 2, 'max': 1000, 'properties': 'always', 'exceptions': ['x', 'i', 'y']}"
+			},
+		"id-match": {
+			"active": 0,
+			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"indent": {
+			"active": 0,
+			"optionString": "4, {'SwitchCase': 0, 'VariableDeclarator': 1, 'outerIIFEBody': 1, }"
+			},
+		"init-declarations": {
+			"active": 0,
+			"optionString": "'always',  {'ignoreForLoopInit': true}"
+			},
+		"jsx-quotes": {
+			"active": 0,
+			"optionString": "'prefer-double'"
+			},
+		"key-spacing": {
+			"active": 0,
+			"optionString": "'singleLine': {'beforeColon': false, 'afterColon': true, 'mode':'strict'}, 'multiLine': {'beforeColon': false, 'afterColon': true, 'align': 'value', 'mode':'minimum'}"
+			},
+		"keyword-spacing": {
+			"active": 0,
+			"optionString": "{'before': true, 'after': true, 'overrides': {}}"
+			},
+		"line-comment-position": {
+			"active": 0,
+			"optionString": "{'position': 'above'}"
+			},
+		"linebreak-style": {
+			"active": 0,
+			"optionString": "'unix'"
+			},
+		"lines-around-comment": {
+			"active": 0,
+			"optionString": "{'beforeBlockComment': true}"
+			},
+		"lines-around-directive": {
+			"active": 0,
+			"optionString": "{'before': 'always', 'after': 'always'}"
+			},
+		"max-depth": {
+			"active": 0,
+			"optionString": "{'max': 4}"
+			},
+		"max-len": {
+			"active": 0,
+			"optionString": "{'code': 80, 'comments': 80, 'tabWidth': 4, 'ignoreUrls': true, 'ignoreStrings': true, 'ignoreTemplateLiterals': true}"
+			},
+		"max-lines": {
+			"active": 0,
+			"optionString": "{'max': 300, 'skipBlankLines': true, 'skipComments': true}"
+			},
+		"max-nested-callbacks": {
+			"active": 0,
+			"optionString": "{'max': 10}"
+			},
+		"max-params": {
+			"active": 0,
+			"optionString": "{'max': 4}"
+			},
+		"max-statements": {
+			"active": 0,
+			"optionString": "{'max': 10}, {'ignoreTopLevelFunctions': true}"
+			},
+		"multiline-ternary": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"new-cap": {
+			"active": 0,
+			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
+			},
+		"new-parens": {
+			"active": 0,
+			"optionString": ""
+			},
+		"newline-after-var": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"newline-before-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"newline-per-chained-call": {
+			"active": 0,
+			"optionString": "{'ignoreChainWithDepth': 2}"
+			},
+		"no-alert": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-array-constructor": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-bitwise": {
+			"active": 0,
+			"optionString": "{'allow': ['~'], 'int32Hint': true}"
+			},
+		"no-caller": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-case-declarations": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-catch-shadow": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-class-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-cond-assign": {
+			"active": 1,
+			"optionString": "'except-parens'"
+			},
+		"no-confusing-arrow": {
+			"active": 0,
+			"optionString": "{'allowParens': false}"
+			},
+		"no-console": {
+			"active": 1,
+			"optionString": "{'allow': ['warn', 'error']}"
+			},
+		"no-const-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-constant-condition": {
+			"active": 1,
+			"optionString": "{'checkLoops': true}"
+			},
+		"no-continue": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-control-regex": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-debugger": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-delete-var": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-div-regex": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-dupe-args": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-dupe-class-members": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-dupe-keys": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-duplicate-imports": {
+			"active": 0,
+			"optionString": "{'includeExports': false}"
+			},
+		"no-else-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-empty": {
+			"active": 1,
+			"optionString": "{'allowEmptyCatch': false}"
+			},
+		"no-empty-character-class": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-empty-function": {
+			"active": 0,
+			"optionString": "{'allow': []}"
+			},
+		"no-empty-pattern": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-eq-null": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-eval": {
+			"active": 0,
+			"optionString": "{'allowIndirect': false}"
+			},
+		"no-ex-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-extend-native": {
+			"active": 0,
+			"optionString": "{'exceptions': []}"
+			},
+		"no-extra-bind": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-extra-boolean-cast": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-extra-labels": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-extra-parens": {
+			"active": 1,
+			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false}"
+			},
+		"no-extra-semi": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-fallthrough": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-floating-decimal": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-func-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-global-assign": {
+			"active": 0,
+			"optionString": "{'exceptions': []}"
+			},
+		"no-implicit-coercion": {
+			"active": 0,
+			"optionString": "{'boolean': true, 'number': true, 'string': true, 'allow': []}"
+			},
+		"no-implicit-globals": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-implied-eval": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-inline-comments": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-inner-declarations": {
+			"active": 1,
+			"optionString": "'functions'"
+			},
+		"no-invalid-regexp": {
+			"active": 1,
+			"optionString": "{'allowConstructorFlags': ['u', 'y']}"
+			},
+		"no-invalid-this": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-irregular-whitespace": {
+			"active": 1,
+			"optionString": "{'skipStrings': true, 'skipComments': false, 'skipRegExps': true, 'skipTemplates': true}"
+			},
+		"no-iterator": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-label-var": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-labels": {
+			"active": 0,
+			"optionString": "{'allowLoop': false, 'allowSwitch': false}"
+			},
+		"no-lone-blocks": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-lonely-if": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-loop-func": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-magic-numbers": {
+			"active": 0,
+			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
+			},
+		"no-mixed-operators": {
+			"active": 0,
+			"optionString": "{'groups': [['+', '-', '*', '\/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
+			},
+		"no-mixed-requires": {
+			"active": 0,
+			"optionString": "{'grouping': false, 'allowCall': false }"
+			},
+		"no-mixed-spaces-and-tabs": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multi-spaces": {
+			"active": 0,
+			"optionString": "{'exceptions': {'Property': true, 'BinaryExpression': false, 'VariableDeclarator': false, 'ImportDeclaration': false}}"
+			},
+		"no-multi-str": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multiple-empty-lines": {
+			"active": 0,
+			"optionString": "{'max': 2, 'maxBOF': 2, 'maxEOF': 2}"
+			},
+		"no-negated-condition": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-nested-ternary": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-func": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-object": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-require": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-symbol": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-new-wrappers": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-obj-calls": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-octal": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-octal-escape": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-param-reassign": {
+			"active": 0,
+			"optionString": "{'props': false}"
+			},
+		"no-path-concat": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-plusplus": {
+			"active": 0,
+			"optionString": "{'allowForLoopAfterthoughts': false}"
+			},
+		"no-process-env": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-process-exit": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-proto": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-redeclare": {
+			"active": 1,
+			"optionString": "{'builtinGlobals': false}"
+			},
+		"no-regex-spaces": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-restricted-globals": {
+			"active": 0,
+			"optionString": "'event', 'fdescribe'"
+			},
+		"no-restricted-imports": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-restricted-modules": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-restricted-properties": {
+			"active": 0,
+			"optionString": "[{'object': 'disallowedObjectName', 'property': 'disallowedPropertyName'}, {'object': 'disallowedObjectName', 'property': 'anotherDisallowedPropertyName', 'message': 'Please use allowedObjectName.allowedPropertyName.'}]"
+			},
+		"no-restricted-syntax": {
+			"active": 0,
+			"optionString": "{'WithStatement', 'try-catch'}"
+			},
+		"no-return-assign": {
+			"active": 0,
+			"optionString": "'except-parens'"
+			},
+		"no-script-url": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-self-assign": {
+			"active": 1,
+			"optionString": "{'props': false}"
+			},
+		"no-self-compare": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-sequences": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-shadow": {
+			"active": 0,
+			"optionString": "{'builtinGlobals': false, 'hoist': 'functions', 'allow': []}"
+			},
+		"no-shadow-restricted-names": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-sparse-arrays": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-sync": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-tabs": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-template-curly-in-string": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-ternary": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-this-before-super": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-throw-literal": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-trailing-spaces": {
+			"active": 0,
+			"optionString": "{'skipBlankLines': false}"
+			},
+		"no-undef": {
+			"active": 1,
+			"optionString": "{'typeof': false}"
+			},
+		"no-undef-init": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-undefined": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-underscore-dangle": {
+			"active": 0,
+			"optionString": "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false}"
+			},
+		"no-unexpected-multiline": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unmodified-loop-condition": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-unneeded-ternary": {
+			"active": 0,
+			"optionString": "{'defaultAssignment': true}"
+			},
+		"no-unreachable": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unsafe-finally": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unsafe-negation": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-unused-expressions": {
+			"active": 0,
+			"optionString": "{'allowShortCircuit': false, 'allowTernary': false}"
+			},
+		"no-unused-labels": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unused-vars": {
+			"active": 1,
+			"optionString": "{'vars': 'all', 'args': 'after-used', 'caughtErrors': 'none'}"
+			},
+		"no-use-before-define": {
+			"active": 0,
+			"optionString": "{'functions': true, 'classes': true}"
+			},
+		"no-useless-call": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-computed-key": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-useless-concat": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-constructor": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-escape": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-rename": {
+			"active": 0,
+			"optionString": "{'ignoreDestructuring': false, 'ignoreImport': false, 'ignoreExport': false}"
+			},
+		"no-var": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-void": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-warning-comments": {
+			"active": 0,
+			"optionString": "{'terms': ['todo', 'fixme', 'xxx'], 'location': 'start'}"
+			},
+		"no-whitespace-before-property": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-with": {
+			"active": 0,
+			"optionString": ""
+			},
+		"object-curly-newline": {
+			"active": 0,
+			"optionString": "{'ObjectExpression': {'multiline': true}, 'ObjectPattern': {'multiline': true}}"
+			},
+		"object-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"object-property-newline": {
+			"active": 0,
+			"optionString": "{'allowMultiplePropertiesPerLine': true}"
+			},
+		"object-shorthand": {
+			"active": 0,
+			"optionString": "'always', {'avoidQuotes': false, 'ignoreConstructors': false}"
+			},
+		"one-var": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"one-var-declaration-per-line": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"operator-assignment": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"operator-linebreak": {
+			"active": 0,
+			"optionString": "'after', {'overrides': {'?': 'after', '+=': 'none'}}"
+			},
+		"padded-blocks": {
+			"active": 0,
+			"optionString": "{'blocks': 'always', 'switches': 'always', 'classes': 'always'}"
+			},
+		"prefer-arrow-callback": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-const": {
+			"active": 0,
+			"optionString": "{'destructuring': 'any', 'ignoreReadBeforeAssign': false}"
+			},
+		"prefer-numeric-literals": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-reflect": {
+			"active": 0,
+			"optionString": "{'exceptions': []}"
+			},
+		"prefer-rest-params": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-spread": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-template": {
+			"active": 0,
+			"optionString": ""
+			},
+		"quote-props": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"quotes": {
+			"active": 0,
+			"optionString": "'double', 'avoid-escape'"
+			},
+		"radix": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"require-jsdoc": {
+			"active": 0,
+			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false}}"
+			},
+		"require-yield": {
+			"active": 0,
+			"optionString": ""
+			},
+		"rest-spread-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"semi": {
+			"active": 0,
+			"optionString": "'always', {'omitLastInOneLineBlock': false}"
+			},
+		"semi-spacing": {
+			"active": 0,
+			"optionString": "{'before': false, 'after': true}"
+			},
+		"sort-imports": {
+			"active": 0,
+			"optionString": "{'ignoreCase': false, 'ignoreMemberSort': true, 'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single']}"
+			},
+		"sort-keys": {
+			"active": 0,
+			"optionString": "'asc', {'caseSensitive': true, 'natural': false}"
+			},
+		"sort-vars": {
+			"active": 0,
+			"optionString": "{'ignoreCase': false}"
+			},
+		"space-before-blocks": {
+			"active": 0,
+			"optionString": "{'functions': 'always', 'keywords': 'always', 'classes': 'always'}"
+			},
+		"space-before-function-paren": {
+			"active": 0,
+			"optionString": "{'anonymous': 'always', 'named': 'never'}"
+			},
+		"space-in-parens": {
+			"active": 0,
+			"optionString": "'never', {'exceptions': []}"
+			},
+		"space-infix-ops": {
+			"active": 0,
+			"optionString": "{'int32Hint': false}"
+			},
+		"space-unary-ops": {
+			"active": 0,
+			"optionString": "{'words': true, 'nonwords': false, 'overrides': {}}"
+			},
+		"spaced-comment": {
+			"active": 0,
+			"optionString": "'always', {'line': {'markers': ['\/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
+			},
+		"strict": {
+			"active": 0,
+			"optionString": "'safe'"
+			},
+		"symbol-description": {
+			"active": 0,
+			"optionString": ""
+			},
+		"template-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"unicode-bom": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"use-isnan": {
+			"active": 1,
+			"optionString": ""
+			},
+		"valid-jsdoc": {
+			"active": 0,
+			"optionString": "{'prefer': {'return': 'returns'}, 'requireReturn': true, 'requireReturnDescription': true, 'requireReturnType': true, 'requireParamDescription': true}"
+			},
+		"valid-typeof": {
+			"active": 1,
+			"optionString": "{'requireStringLiterals': true}"
+			},
+		"vars-on-top": {
+			"active": 0,
+			"optionString": ""
+			},
+		"wrap-iife": {
+			"active": 0,
+			"optionString": "'outside'"
+			},
+		"wrap-regex": {
+			"active": 0,
+			"optionString": ""
+			},
+		"yield-star-spacing": {
+			"active": 0,
+			"optionString": "{'before': false, 'after': true}"
+			},
+		"yoda": {
+			"active": 0,
+			"optionString": "'never', {'exceptRange': false, 'onlyEquality': false}"
+			}
+		},
+	"esLintSourceType": 0,
+	"externalServerAddress": "http:\/\/127.0.0.1:3000",
+	"gitIgnoreBuildFolder": 1,
+	"hideConfigFile": 0,
+	"jsCheckerReservedNamesString": "",
+	"jsHintFlags2": {
+		"asi": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bitwise": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"boss": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"browserify": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"camelcase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"couch": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"curly": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"debug": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"dojo": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"elision": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eqeqeq": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eqnull": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"es3": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"esnext": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evil": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"expr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"forin": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"freeze": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"funcscope": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"futurehostile": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"globalstrict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"immed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"indent": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"iterator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jasmine": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jquery": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"lastsemic": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"latedef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"laxbreak": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"laxcomma": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"loopfunc": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"maxcomplexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"maxdepth": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"maxparams": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxstatements": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"mocha": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"mootools": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"moz": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"multistr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newcap": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noarg": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"nocomma": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"noempty": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonbsp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonew": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"nonstandard": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"notypeof": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noyield": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"onecase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"phantom": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"proto": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prototypejs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"qunit": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"regexp": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"rhino": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"scripturl": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shadow": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shelljs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"singleGroups": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"strict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"sub": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"supernew": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"typed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"undef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"varstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"withstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"worker": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"wsh": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"yui": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"jsLintFlags2": {
+		"bitwise": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"couch": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"es6": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"eval": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"for": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"this": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"white": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"languageDefaultsCOFFEE": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.js",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"minifyOutput": 1,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"languageDefaultsCSS": {
+		"autoOutputAction": 2,
+		"autoOutputPathFilenamePattern": "*-ck.css",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0
+		},
+	"languageDefaultsGIF": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.gif",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsHAML": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"escapeHTMLCharacters": 0,
+		"noEscapeInAttributes": 0,
+		"outputFormat": 2,
+		"outputStyle": 0,
+		"useCDATA": 0,
+		"useDoubleQuotes": 0,
+		"useUnixNewlines": 0
+		},
+	"languageDefaultsJPG": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.jpg",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsJS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*-min.js",
+		"autoOutputPathRelativePath": "\/min",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 2,
+		"createSourceMap": 0,
+		"minifyOutput": 1,
+		"syntaxCheckerStyle": 1,
+		"transpilerStyle": 0
+		},
+	"languageDefaultsJSON": {
+		"autoOutputAction": 1,
+		"autoOutputPathFilenamePattern": "*-min.json",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"orderOutput": 0,
+		"outputStyle": 1
+		},
+	"languageDefaultsJSX": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.js",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "jsx",
+		"autoOutputPathReplace2": "js",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsKIT": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsLESS": {
+		"allowInsecureImports": 0,
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.css",
+		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathReplace1": "less",
+		"autoOutputPathReplace2": "css",
+		"autoOutputPathStyle": 2,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"ieCompatibility": 1,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"languageDefaultsMARKDOWN": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"criticStyle": 0,
+		"enableFootnotes": 1,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"maskEmailAddresses": 1,
+		"outputFormat": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
+	"languageDefaultsOTHER": {
+		"autoOutputAction": 2,
+		"autoOutputPathFilenamePattern": "*.*",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsPNG": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.png",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsPUG": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"compileDebug": 1,
+		"outputStyle": 0
+		},
+	"languageDefaultsSASS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.css",
+		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathReplace1": "sass",
+		"autoOutputPathReplace2": "css",
+		"autoOutputPathStyle": 2,
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 1
+		},
+	"languageDefaultsSLIM": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"compileOnly": 0,
+		"logicless": 0,
+		"outputFormat": 0,
+		"outputStyle": 1,
+		"railsCompatible": 0
+		},
+	"languageDefaultsSTYLUS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.css",
+		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathReplace1": "stylus",
+		"autoOutputPathReplace2": "css",
+		"autoOutputPathStyle": 2,
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"importCSS": 0,
+		"outputStyle": 0,
+		"resolveRelativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0
+		},
+	"languageDefaultsSVG": {
+		"autoOutputAction": 2,
+		"autoOutputPathFilenamePattern": "*.svg",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"pluginMask": 3758088159
+		},
+	"languageDefaultsTS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.js",
+		"autoOutputPathRelativePath": "\/js",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 2,
+		"createDeclarationFile": 0,
+		"createSourceMap": 0,
+		"jsxMode": 0,
+		"minifyOutput": 0,
+		"moduleResolutionType": 0,
+		"moduleType": 0,
+		"noImplicitAny": 0,
+		"preserveConstEnums": 0,
+		"removeComments": 0,
+		"suppressImplicitAnyIndexErrors": 0,
+		"targetECMAVersion": 0
+		},
+	"languageDefaultsUserDefined": [
+		],
+	"previewPathAddition": "",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
+	"sourceFolderName": "source",
+	"uglifyDefinesString": "",
+	"uglifyFlags2": {
+		"ascii-only": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bare-returns": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"booleans": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"bracketize": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"cascade": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comments": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comparisons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"compress": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"conditionals": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"dead_code": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_console": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eval": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evaluate": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_funs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_vars": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"if_return": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"indent-level": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"indent-start": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"inline-script": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"join_vars": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"keep_fargs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"keep_fnames": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"loops": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"mangle": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"max-line-len": {
+			"active": 1,
+			"flagValue": 32000
+			},
+		"negate_iife": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"properties": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"pure_getters": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"quote-keys": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"screw-ie8": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sequences": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sort": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space-colon": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"toplevel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"warnings": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"width": {
+			"active": 1,
+			"flagValue": 80
+			}
+		},
+	"uglifyReservedNamesString": "$",
+	"websiteRelativeRoot": ""
+	},
+"settingsFileVersion": "3"
+}
