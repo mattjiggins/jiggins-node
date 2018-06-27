@@ -12,7 +12,7 @@
     "cors": "*",
     "debug": "~2.2.0",
 	"dotenv": "2.0.0",
-    "express": "~4.13.1",
+    "express": "~4.16.0",
     "express-handlebars": "*",
     "handlebars-helper-md": "*",
     "jade": "~1.11.0",
@@ -20,7 +20,7 @@
     "moment": "~2.11.1",
     "morgan": "~1.6.1",
 	"q":"~1.4.1",
-	"request":"~2.69.0",
+	"request":"~2.81.0",
     "serve-favicon": "~2.3.0",
 	"twitter": "~1.2.5",
 	"600px":"mattjiggins/600px"
