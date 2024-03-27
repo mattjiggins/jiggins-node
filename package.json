@@ -12,7 +12,7 @@
     "cors": "*",
     "debug": "~2.2.0",
 	"dotenv": "2.0.0",
-    "express": "~4.13.1",
+    "express": "~4.19.2",
     "express-handlebars": "*",
     "handlebars-helper-md": "*",
     "jade": "~1.11.0",
